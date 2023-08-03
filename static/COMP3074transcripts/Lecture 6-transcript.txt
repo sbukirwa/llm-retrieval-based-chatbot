@@ -1,0 +1,227 @@
+SPEAKER 0
+Towards us. I want to say, well, let's see. Let's see if it works. Okay. Is it recording? Not yet. So today we're going to talk about two very important things. And considering the coursework is released tomorrow, I strongly advise you to listen. I say, listen, we're going to talk about representation and the notion of similarity. So some of the stuff that we're going to talk about now are going to be built upon in the next lecture and the one after that and are going to be some very important notions that you're going to use in your first coursework. We're going to start by talking about something called fixed size representations and more specifically, the bug of word models and the notion of term weighting that usually goes with it. So let's see, I've talked a bit about MLP so far, but we focussed on processing the text. We haven't really talked about what we actually do. Once we have done all these stemming language modelling, whatever, all the processing that we do to make the text usable, and there's one thing we need to know is that MLP algorithm do not actually use text. They understand numbers because that's just how computer programs usually tend to work. Most NLP algorithms don't actually understand sequences of words and sequences of numbers. If they are variable sized, they need a fixed size input and there is a very good reason for that that I'm going to go a bit deeper later on. So what do we have? We have our text, we have our documents are all of different sizes using different words, and we need to represent them using a vector of similar size. We need to make them comparable. And something we used to do that is called a vector space. A vector space is something you probably have seen in linear algebra in first year or maybe sometimes in high school. But we're going to go a bit deeper into that as well today. And also in the lab, the way we define our vector space is that we define it by having each of dimensions of the vector space being represented by a term of our vocabulary. And then since each dimension of the vector space is a term, that means that we can represent our documents as vectors in the space. A lot of the NLP algorithm that we going to talk about rely entirely on comparing documents to each other. So whether you're trained to classify them, you're trained to rank them, you're trained to do basically anything with it. It always relies on basically representing all documents in a common space and then comparing them, if you only classify them. You just basically draw a line between two categories. If you understand them, you just search by similarity and so on and so forth. Right. Let's start with in the example here. Very simple vector space, very simple corpus. As you can see, three documents, three words in our vocabulary here. So we define our vector space with the vocabulary cat, red and dog. Yeah, As I said, very simple. And then based on this, this, this representation, we can represent document one, two and three are simple vectors of free numbers. Where did I mention of the value dimension and the being the frequency of that word in the document? So you can see, for instance, documentary as cut twice. Therefore, the first image here as a two. Right. And then if you actually try to visualise this in three dimensions, they're hard to represent on a flat plane. This is my best effort at it. You can see here that each document can be represented as a vector.
+
+SPEAKER 1
+As a vector.
+
+SPEAKER 0
+So this is the basis. So once we have this, we need to see basically how do we actually compare those things together. I actually process this and we do that with something called similarity measure. So similarity, it's very simple is a function which takes two documents basically, and we turn a number between zero and one, where if it is one, it means that it is the same document. And if it is zero, it means that they have nothing in common. And the more similar they are, then the higher the number is. This is at the core of many, many, well machine learning and AP algorithm in general. So information retrieval like search engines rely on this recommender system to rely on this clustering custom classifiers that a lot of stuff relies on understanding the concept of similarity of documents. Now let's have a think. Going back to the first example, if I just told you this and you had not downloaded my lecture slides and looked at it in advance, how would you measure what kind of idea you have? We could measure similarity of documents based on this representation. And let's let's have like 3 minutes of thinking and talking about this before I start quizzing for answers. Doc among yourselves.
+
+UNKNOWN
+It was. Exactly.
+
+SPEAKER 1
+Ryan.
+
+SPEAKER 0
+How is this not reporting? It is what we have done since. That's too bad. I just feel like.
+
+SPEAKER 1
+But also. Suddenly they discover that they won't work anymore unless proven otherwise. Yeah. It. So let's say you're following this is.
+
+SPEAKER 0
+Unless some catastrophic.
+
+SPEAKER 1
+Disease arises. There's.
+
+SPEAKER 0
+Okay. Okay. My time is up, and I want some answers. Write, please. Right. Thank you. So anybody has any candidate answer to submit to me? Yes.
+
+SPEAKER 1
+So I was thinking maybe there's been a couple of the documents that you can see that were similar that. Going into implications then.
+
+SPEAKER 0
+Be similar directions maybe. Oh, it's very good. Those is the right word. Okay. Okay, I'll hold that follow for later. Any other? Yes.
+
+SPEAKER 1
+I'll be going. The.
+
+SPEAKER 0
+So can you repeat that? I didn't hear.
+
+SPEAKER 1
+You got to make a prediction, obviously, because we might be be on beyond.
+
+SPEAKER 0
+The projection. I didn't pick on that one. That's. That's. That's interesting. But we didn't even losing a bit of information as well. Right. Like, if you get a good point, I'll have to look into this. Any any other kind of any. Yes, why not? This is something that happened just so a distance earlier. This is in points. Yes, that's a good answer. Anything else? Yes. So the victor from each other. I mean, that's that's I mean, that's that's, that's a distance. If I understand what you mean is that like, if you subtract the vector sum each other, you end up with the vector of distance between the two. Right. So it is correct, but it's what you said based on the dog product. Right. Interesting. Going back to the one there. Okay. So this is all quite interesting answers. So I'm going to go over free similarity matrix that you might find in the literature and you'll see that two of them are actually being told. I'm very surprised. First one, Dakar Index. Very simple. Basically just we can see here, right? So we just working with binary weights. We see whether a thing is there or is not there. And then what we do is that we measure the intersection, the size of the intersection of the two documents and the size of the union of two documents. And we just basically divide the divide of sizes and then we end up with some measure of distance. So if those two documents are the same, then looking at one, if they're completely dissimilar, they're going to get zero. That's the first one. Second one Euclidean distance somewhat. You mentioned math and distance. So yes, so actually measure of distance can be done in a vector space. It's very simple, like geometry. You just basically, you know, basically is a subtraction of all the terms of the vector. And then you can see that if you do that, then you end up with some nice way of of measuring how far those things are together. Anybody has any issue with this. Come on. Yes. So how did you feel? Well, if they are the same documents, it could be zero. And I think by now we all know that if you divide something by zero, catastrophic things happen. So actually, in practice, we add the one to the denominator so that if you the same document, we still have a similarity of one. But, you know, if we don't actually divide by zero and break the computer. So, yes, that's correct. And finally, the most interesting one I'm surprised was the first one suggested, and I'm very pleased cosine similarity. So cosine similarity, as it was mentioned just now, we are basically measuring not distance in points, but distance in angles. So this is easy to visualise because there's only three dimensions. But keep in mind that working in actual system there will be thousands of dimensions, but you can intuitively think of it as like what would happen if we measure the cosine of that angle and then basically use that as a distance. So yeah, So here for instance, we have looking at one and looking into and we can see that actually quite aligned together and Yeah. And do we do that is using DOT products and then the norms which is a lot easier to implement than it looks and that's it. Now can anybody as are the guess as to why this is better when dealing with documents better than you know if you're doing distance or object distance. No. As a guest. There's no wrong answer. Well, that's not true. There are, but yes.
+
+SPEAKER 1
+But these are places that you can really be of any scale that you.
+
+SPEAKER 0
+That is not the case. But it's an interesting thought and that would be a lot more relevant later on. Anybody. Okay. Well, the reason why this is better is think of it this way. We are talking about documents. And one thing we know about documents is that they vary a lot in length. So what would happen if you were trying to compute a similarity between a tweet is that 200 something characters and a novel. Right. So one of them would have frequencies in the hundreds or the thousands and one with a frequency in the, you know, one or zero most of the time. So you would have like a tiny vector here and a gigantic vector here. And of course, the distance between those two points was going to be huge, regardless of how related they are. Like, you could have an excerpt from a book and compare it to the book itself, even though is actually extracted from the book. You would have a gigantic distance, and that's not something we want. So if you measure angles, what that means is that if the proportion of words is the same, it doesn't matter if one is a lot shorter than the other because the angle is going to be zero. And so the similarity is going to be one. It'll make more sense in the lab. Don't worry. Right. So now let's think about something else. So far, we've been using low frequency. So counting the words, actually counting the words as a way of, you know, filling up like those those dimensions of that negative space. Can anybody think of some drawbacks of doing this? And I'll leave you 3 minutes to discuss it and see what we can come up with.
+
+UNKNOWN
+I mean, it was. I see.
+
+SPEAKER 1
+We found a place that's cool about living.
+
+SPEAKER 0
+I used to live.
+
+SPEAKER 1
+In my house. Yeah. It's nice, right? Yeah. Right. Yeah. Means. Yes.
+
+UNKNOWN
+You can take. Groups.
+
+SPEAKER 0
+Right? Yes. Or didn't answer to answers. Don't hold them all. We've got to go on.
+
+SPEAKER 1
+To the next level. We definitely don't. It doesn't take. So instead of seeing the Red Cross and the little dog, they call it the red. Much later if you want to take My son also has very easy to change the wall. Yeah. So the children are.
+
+SPEAKER 0
+Already going to patriotism. Okay. Okay.
+
+SPEAKER 1
+The other problem is it's a direct problem that we don't. So he changed his mind. Yeah, but they still would be convicted of the same thing.
+
+SPEAKER 0
+Okay. It's so this is very correct. However, this is not a problem. So this is quite well, that's a problem with Bible verse in general. And you're completely correct. Absence of semantics first. And secondly, like word order is a meaningless are two main drawbacks of using Bible words, but it's not a drawback of using raw frequency, which is the specific point I'm trying to get on right now. Yes. Yeah. Proportion. Proportion? Yeah. So you mean. Okay. Yeah, that's. Yeah, exactly. That is the correct answer. So basically the main issue that we have is we're frequency and it's kind of related to what I was talking about with cosine similarity is that when you have documents of variable length, then things just break down. That's most of the issue we have in an LP actually are related to that. So yeah, so large document always end up very far from short documents regardless of what you do. And cosine similarity is one way of mitigating that. But there are other ways of doing it. And the what do the the thing that I'm talking about right now, which I referred to in the beginning, the lecture is term. So we just instead of using the raw frequency, we apply some very simple transformation to those frequencies that end up putting things closer together. So there are three main ones, as well as some more specialised ones that I'm not going to go into. I'm just going to go into those ones because to be honest there, get you like 90% of the way. But note that this is an actual research field and some people are working on this full time even now. So the simplest one binary term within the term is there or is not there. So that kind of goes over the point of length, right? Is like it doesn't matter if Cat is there 10,000 times or once ends up being one, then we have just basically lobes scaling the frequencies. So I was adding one of course, because we are no logarithm like zeros. And then the final ones, the most interesting one is called TFIDF. I'm going to go into more details into this now. So I put disclose it more for your reference later than for talking about it, because they're not very interesting. They're just an example binary term weighting. You go log scale, you know, apply algorithm, I think. I'm not going to explain that tfidf. Way more interesting. So the ETF idea that works is that we have two terms F term frequency ADF inverse document frequency. So the first term is actually just a log shedding. So here and the second term is where it gets interesting is you multiply this by the logarithm of and big n divided by small n where big and is the number of documents in porpoise small n is the number of documents that contain that term at least once. So what does that mean? That means that if a word is too frequent, which means it appears in every single document, then log of n by end is converging towards the log of one. And as we know, log of one is zero. So that term appears in every single document. It's not important. Is that punctuation we know is going to be there. And conversely, if a something is, you know, only in a few documents, then it gets a much higher importance, but not that high because it is still log scaled. So this is TFIDF looks deceptively simple. It's still state of the art, a term weighting technique in many fields and you will find it in every single and LP package under the sun. So here is a small example here. Once again, this is more for your own reference than for mine.
+
+SPEAKER 1
+Oh.
+
+SPEAKER 0
+Yeah. So you can see here that red appears in every single documents. Therefore not that interesting of a word. And that ends up being kind of cancelled in the vocabulary later on. So, yeah, here we go. This is a term waiting. So now we can represent any document in a fixed size vector. Yes, we can put some weights and then once we have this, this is really all we need to start fitting that into some classifiers, clustering or any sort of machine learning algorithm we want to use. The document vectors are also used in search engines, which are basically just rankers, just like take documents and rank them. And because of that, because they used the notion of distance and similarity that we saw in the beginning of this lecture. Now let's get to the fun part and variable length representation. So now we are stepping in the 21st century where deep learning and all this stuff is taking over all of the NLP applications. And one of the good things that we can do with deep learning is that we can use variable lens or variable sized representations. We're not constrained to a fixed size vector anymore. So why do we do that? First, let's let's look at the simplest variable size representation there is, which is called one hot encoding. I'm not going to explain why it's called one hot because to be fair, I forgot the reason, but it's actually very simple, I think is because only one bit is switched off is Adam I don't remember is meaningless anyway. So here we can see that when we represent something as one hot encoding, we end up not with a fixed size vector, it was a matrix of dimension L by V, where L is the actual length of the input and V is the size of the vocabulary. So here we have five words in the vocabulary. We're keeping all of them, even the crappy ones. And then we got a few words in the first document that read Cuts here, the Red Dog, and then here a bit more complex sentence. So you can see here tricky, right? First the matrices and how do we do that? And then secondly, they all have different sizes, uh, which will be normal to work with, with a very standard machine learning algorithm. One of the basic assumption of one hot encoding is that all words are unrelated. So if you think about this as a vector space, you would find that you can see that all those vectors, the auto and all to each other. So the distance between cats and dog is the same as a distance between cat and red. So we kind of we can't really encode any semantics in this. And also it ends up giving you some very large, sparse matrices and for efficiency reasons, as a computer scientist, we don't like sparse matrices. To take a little space for no reason is mostly zeros. So a lot of people do a lot of work in trying to find efficient way of encoding them. So this is for one hot encoding word. Embeddings are a more clever way of actually representing things with variable sized representation. It's based on something called distributional semantics. And the way distribution of index works is that it assumes that the semantics of a word is based on how is distributed in a corpus, and we'll see what that means concretely. Now, basically there's this expression you shall know a word by the company. It keeps my firm, which is a good summary of of how it works. For example, here we know that cats tend to appear in the same types of context as dog. Therefore, cats and dogs should be closer together in their DNA representation than cats and B or cats and dogs or cats and whatever other object you can think of. Red tends to appear in the same context as blue. Therefore, red and blue should be more closely related to something like cats or large or whatever you can think of, and so on and so forth. You get the idea a word and bidding is a dense representation, a dense vector representation of words, and we use them because as Joel mentioned in a previous lecture, they tend to preserve some interesting properties such as similarity. So the security of dog and cat is closer than similarity, is higher than similarity of dog and car. And also analogy with this very famous analogy, the vector of king minus two vector of men, plus the vector of woman is closely related to the vector of queen in terms of actual distance. So of cool stuff, we want that in our own applications. So that's why ward meetings are very popular. I'm not going to go into details of how they were completed in the past, but basically it was a bunch of very boring, very complicated linear algebra. Now we moved on to cool stuff like water VEC and neural networks, which are a lot more efficient at doing all of this. So I'm going to go over very the intuition of how word to that works. I would encourage you to read the paper if you want to know more. It's actually a very accessible paper by machine learning standard. By the way, what does it work? There's two ways of computing those representation. The first one is called the continuous by words model. And the way it works basically is that they train a neural network. Right on a sliding window of words in a document. And they train it so that they think of saying we do of end words. So, for instance, five, five words. And they try to predict the middle word based on the context. So the input here that no has accompanied and then tried to predict the words. And we want to see the word disaster and then trend in your network. So on and so forth. And once they're done, then it works. It can be you can extract the actual word vectors from it. The second way is called a skip gram, which does the exact opposite. Very easy to to understand is that just takes the middle word. And then try to predict the context. Yeah, very simple. So we take disaster and we try to predict what one, two, three and four that no has accompanied. And and then once again, the same thing. We just take the wheat from the network itself, extract them. And those are all word embeddings. And because what the meetings are trained on context, what that means in context is that words which can be replaced with each other. So they have same context, end up with very similar embedding vectors. Now a bit of thinking because they are trained on context where it can be replaced by other words with similar embedding vectors. Now, what issues can you see in Ward Embeddings working this way? And let's take five and see whether you can come up with the answer or answers. You speak among yourselves.
+
+SPEAKER 1
+I hope so. Last week they made general. He looks a lot. Yes, I'm going to do a thing for. No, I don't think I believe that. This could change the outcome of the debate. They voted for. Oh, yeah. Oh, there's one.
+
+UNKNOWN
+Called Big Bird.
+
+SPEAKER 1
+Only.
+
+UNKNOWN
+You know. Honestly.
+
+SPEAKER 1
+It really is a social engineering.
+
+UNKNOWN
+Yeah. Yes. Andrew. We help to advise. Oh, right in the middle.
+
+SPEAKER 0
+Okay. Okay, okay. Just calm down for a bit. Quiet, please. We're not allowed to throw stuff, right?
+
+SPEAKER 1
+We just go. Yeah.
+
+SPEAKER 0
+All right, So anybody has an interesting answer to share. I'm assuming you're been discussing this, right? Yeah. It's okay.
+
+SPEAKER 1
+I'm sorry. It never, never was. You know, the way it was meant to do, huh? Was obviously very close.
+
+UNKNOWN
+To one on one. So when they might be.
+
+SPEAKER 0
+So can you repeat that? I'm not sure I follow the two words. You mean they have similar embeddings?
+
+SPEAKER 1
+Yes. Yes.
+
+SPEAKER 0
+Okay. But they shouldn't. Yeah. Okay. That's an interesting answer. I'm going to keep it behind in my ear for a second to see if there's anything else. Sorry, Lindsay. I'm not sure.
+
+SPEAKER 1
+This is right. But for example, if I have two different words with, like, very similar meanings, and what it does is fascinating. The answers last stop. Those two words could mean, like, basically the same thing. Yeah, I stop for you. If you look for the train destination for a train and so on and so forth. But if they are used in different contexts, it could be that this would be like lost. That could be quite threatening. Yeah. So it's a, it's a I uses the word lost thought and the reality that it's probably not it may not be the best choice.
+
+SPEAKER 0
+Okay. That's okay. I'll, I'll keep that as well. Yes.
+
+SPEAKER 1
+So it might not be the way that one gets to speak so that the sentence might be using one without conditions. It really there's a that maybe there is a negation which we have, even though, you know, the fact is it has a semantic view of what we don't want to see.
+
+SPEAKER 0
+Okay. Yeah. That's that is that is, that is correct as well. Yeah. This one says something to it. I'll keep that as well. Any other answer? Yes.
+
+SPEAKER 1
+I would say that it could be biased. Since Putin is.
+
+SPEAKER 0
+Not. Yeah, very specific. Right. So it depends heavily on the data that is being trained on. Yeah, that is that is correct as well. Any other. Yes.
+
+SPEAKER 1
+I was thinking of if you have to see what that is, is going to be hard to not get most regularity and similarities in things because if all five was assuming. Okay. If one possibility of an 80% is a big jump.
+
+SPEAKER 0
+Yeah. We could we could extend the. What if you just extend the window to like ten?
+
+SPEAKER 1
+I think my mind is going to have to think. How big is the window? Yeah. Smaller than the choice.
+
+SPEAKER 0
+Yeah. Yeah, you're right. You're right. So I think a lot basically came down to what you were trying to say. Is this actually limitations to distributional semantics, which is that the assumption that meaning they said that semantics can be linked directly to the way the context of the word is flawed. Right. So here I'm going to put so these are the ones I came up with very fast, but these are not like the it's not an exhaustive list. They all of you are correct, at least in some way. So the first the one that you said so for everything else is still biases. Yeah. You training on the specific dataset and Joe mentioned that on Monday. So you are basically propagating the biases that are in your data train the word embedding on some I don't know, literature from fascist Italy. You can be very surprised by the stuff that comes out of it. The second thing, and this is going back to what all you are saying about the limitation of like context and the limitation of and you know, a numerical representation of like fixed size is that there is no true semantic understanding in distributional semantics. Right. We are making assumptions from the data itself. And because we don't have infinite data, then there is a limitation in what we're doing. So we're representing words by the role they are taking in a sentence rather than their meaning. So for instance, why would CAT, for instance, in this kind of what embeddings meetings should be would be closer to dog than to tiger, because their property of pettiness puts them into similar context. But if you go from a biological perspective, then pets and tiger will be closely more closely related to like a frozen eating tree than cats. And though I don't know if that's actually true, that's just an example. And more so, there are some limitation in using one in meetings. So these limitations are why there's been so much research on enriching them. So you mentioned the limitation of like using a fixed word window, and that is very correct. And this is why most of the modern approaches don't actually work with fixed windows, or at least not as much. What they do is it train neural language models, which are I'm not going to go into that because it's going to take an entire, of course, in itself. But basically you can pick on them are very, very complex, dense, very, very complex, embedding representations. So a few names that you might have heard. Bert GP, three very well known one open this stuff, Ernie, Elmo birds and a lot of stuff with like nice names like this. They are modern version of language models, but they use word embeddings as representation. So see, we're already merging the classes here. What embeddings and and language models Also those training models, they're not all nice, they work great. Get me wrong, most of the time, at least they however they train, they take a lot of data to train and take a lot of computing power to train the very expensive take a lot of energy. So this is like a sentence from a paper train, a single Bert. So Bert is a representation base model without any training or anything on TV. Use was estimated to require as much energy as a trans American flight. That's not great, because imagine if you were all doing this for for coursework or something. That's a lot of flights. That's a lot of CO2. This is you know, we should be avoiding this very interesting paper. I'll put a reference on little excuse here. Bye bye. Emily Bender, TV guru and colleagues on the dangers of very large English models. So yeah, let's keep that in mind that as we increase complexity, we also increase the cost and not just in terms of money. So we've seen that we have two main ways of presenting documents with variable and one hot encoding and embedding. And now I'm going to talk about you and talk to you about what we can do with it. We can actually take if we need. What is it? Okay. Those those are in the wrong order. So I'm going to start here. How do you copy the similarity between inputs of different sizes? That's no easy, right? So there's two approaches to doing this. The first one is fairly simple concatenating. So yeah, you just basically take the length axis and then find a way to just aggregates everything. So for one hold, including for instance, if you sum the matrix across its length, you end up with a bag of words with more frequency, or if you take the max, then you end up with a bag of words with binary encoding. If you had the word embeddings, you can average the matrix across its length and then the result you have at the end is just a mean embedding, which is a standard way of representing documents. Using what I mean in a sense of average, not in the sense of not nice. And then once you have this output, well, we saw already that you can measure similarity fairly easily because they end up being, you know, they end up being represented in the vector space, except that's a more complicated one. There's another type of approaches. I'm not going to go into detail on this, but you should know it exists. Metric learning. Basically, most of the people working in this, they basically train neural networks to take those kind of like variable sized representation and instead of classifying them, whatever the train that to learn a similarity matrix. So they learn how far apart from each other. And it's very complicated, but it's very fun. And I may talk about it later in the in the in the course. So now very short because we're running towards the end of our three similarity. So we've seen similarity with other words we sort of see in similarity with embeddings. So now how do we do that? How do we do something useful with that? So for instance, here, an example, a search engine. So as we know, search basically brings documents by order of what it thinks is relevant to you. The way certain works is that, yes, very simple, basic components, a corpus of documents representing the common space. We know how to do that. And then it has a relevance function which takes a query. So something you type on Google and then a document, a single document, and returns a relevance value between zero and one. And that's about it really. The rest is just an interface to actually enter the query and then an interface that actually displays all the documents by decreasing order of relevance. Those are called the core components. Of course, modelling search engines are a lot more complex, but it's not the point of the slide. This is like the core of the simplest search engine possible. Most of the time what we use as relevant function is actually just a similarity. So if you look at any common search engine, you will find out that the way they compute whether a document is relevant to your query is actually a cosine similarity. So here you go. Now you know why it's useful. Of course, most models in engine do use additional signals to tell you what a document is. What about or not? Stuff like freshness, popularity, factuality, and so on. There are also a lot of other models for relevance. But we going to talk about them because once again, there's also another course in itself. Yeah. So now we have time for this. So one minute, if you want to structure your corpus, you have a corpus of data and you want to structure it to build an application that answer this question. How will you structure your corpus? And you have one minute and I'm setting a timer now. It's only one side of.
+
+SPEAKER 1
+It's 47.
+
+UNKNOWN
+But it is.
+
+SPEAKER 1
+Actually the most important line of the entire lecture. That sounds like a character that I think this is one that ends up using this.
+
+UNKNOWN
+I wanted you to.
+
+SPEAKER 0
+I didn't need you to tell you what I'm going to do now.
+
+SPEAKER 1
+Yeah. Just make sure you set.
+
+SPEAKER 0
+All right. All right. Minute is up. I want answers. This is more of, like, an engineering kind of question. So I'm expecting at least dozens of Henrys right now. So any any any clue? If you have a corpus of things, you want to organise it to build a question answering system. What do you do? Any ideas? When you sit close to the end, you can almost taste the exit. Yes.
+
+SPEAKER 1
+All I can say is that what price difference is worth the price of trading time with you because.
+
+SPEAKER 0
+Okay, so separate to the question and the answer is what you're saying, merge them together.
+
+SPEAKER 1
+So it's quite a statement.
+
+SPEAKER 0
+Okay. So what do you do with that after that?
+
+SPEAKER 1
+Uh huh.
+
+SPEAKER 0
+Okay. Any. Any other. Yes.
+
+SPEAKER 1
+With answering questions that you. Was basically. I have to on this. Okay. You provided all your documents that have nothing to do with the bakery. Yeah, it makes it easier.
+
+SPEAKER 0
+So you go for, like, a hierarchical structure, basically. Okay. Any other answer? Yeah.
+
+UNKNOWN
+Whatever. It's the most.
+
+SPEAKER 1
+Yeah. For example, you have information about these dogs, right? Yeah. Like, how would you stop? Yeah. What?
+
+SPEAKER 0
+So. Okay.
+
+SPEAKER 1
+Let's have a question. You can find. You've got to.
+
+SPEAKER 0
+Okay, So a tagging. Okay. Any other? Yes. A tree. A tree. Okay. Tell me more. I'm intrigued.
+
+SPEAKER 1
+I brought 20. So I won.
+
+SPEAKER 0
+Yeah. Okay. So I think you're going in much, much lower level, like in the computation that I was expecting. Any other kind of. No. Yes. Uh huh. Okay. Yeah. Yeah. I mean, this is. This is not. This is correct. Right. But this is way beyond. Like, I think and maybe I phrased this in a way that makes it sound is a lot more complicated than is, but I have no. Okay, so the answer to this is, is actually a lot simpler than all of this, right? You bet. If you basically separate a corpus with questions and then just link each question to an answer, you've basically one, right? Because now you're matching the question to a set of questions and then you know the answer to those questions. So if you have a search engine type of application and then you just search for a corpus of questions, but then instead of returning the question, you return the corresponding answer, then you have basically the bare bones of a question answering system. Does that make sense? Right. So now last night, because I see we're running out of time. I'm not willing to details of this, but take everything I just said and instead of answers, replace that with a label. And now you have a classifier. So that's the that's the principle behind the K nearest neighbourhood classifier is that if you represent a set of labelled documents in a vector space, and then if you have a new documents you want to label, you find the most similar ones, the K, most similar ones. And then find out which is the majority label. Between those came closest neighbours and output that is of classification. And then congratulation, you just built your first machine learning algorithm. And that was like seven lines of code. Yeah. Conclusion. Whatever. I've just talked about all of this and yeah, I think that's about it for us today. I'll see you all tomorrow in the lab. Wait. Let me stop the recording. No, I.

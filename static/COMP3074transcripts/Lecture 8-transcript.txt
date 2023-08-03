@@ -1,0 +1,173 @@
+SPEAKER 0
+Although the cosy ambience.
+
+SPEAKER 1
+Is.
+
+SPEAKER 0
+Quite. Please. Thank you. You know, there's a quiz tomorrow, right? I want to thank you. Okay. That's the wrong number. This is lecture eight, not six. I'll fix that later on. But this lecture, we're going to talk about tax classification, which is in many cases a core component or of a chat bot and as well as content that's going to be on multiple quizzes from now on. So I would suggest paying attention. I want to start by looking, reading and pondering on this deep thought from statistician George Fox. All models are wrong, but some are useful. There's going to be a key thing that you have to understand if you want to do any sort of machine learning or in this case, natural language processing. So ponder what it means and we'll talk about this a bit later on. Okay. So let's start with what I know is your favourite thing, which is thinking. And let's start taking 5 minutes to think about this. Let's just say that I'm giving you a corpus with six documents, very small, which is going to be represented on a two dimensional vector space. So you see each of two number here. Two, number two, number two numbers. That's your vector space. That's where your corpus is projected. And then there are two labels. Some of those documents have a positive label and some have a negative label. So it's a task commonly known as sentiment analysis. And what I would like you to do is to take a few minutes. Feel free to discuss not too loud with your neighbours and see what that you can come up with a few ideas on how to classify those documents automatically and talk among yourselves and see what he had come up with in 5 minutes. I'm going to start pointing fingers and asking for answers.
+
+UNKNOWN
+Some of you have.
+
+SPEAKER 1
+The only thing. A reminder of the difference between. I would.
+
+UNKNOWN
+This is the time. We're only.
+
+SPEAKER 1
+No mention of the. You know. Wallace North.
+
+SPEAKER 0
+It's something that was.
+
+SPEAKER 1
+19.
+
+SPEAKER 0
+So anybody got some ideas? No. Yes. Oh, sorry.
+
+SPEAKER 1
+I think because the first number is smaller than a second number in the first class. Small, it is positive. And then the second number is smaller than the first number. At least because that's the system.
+
+SPEAKER 0
+You mean some if then rules and then with some numbers. Okay, I'll put that in memory. You have an answer to the same answer? Yes.
+
+SPEAKER 1
+In fact, for those of us who are online. So you will have to do it right.
+
+SPEAKER 0
+So drawing a line, basically.
+
+SPEAKER 1
+Right?
+
+UNKNOWN
+It was both positive and negative.
+
+SPEAKER 0
+Okay. So drawing like a parametric line and then looking at the sign of that one line.
+
+SPEAKER 1
+So the line goes 45 degrees from the axis of the OC. Everything goes into all the boxes.
+
+SPEAKER 0
+Okay, that's interesting answer. Any anything else? Yeah.
+
+UNKNOWN
+I have. One of.
+
+SPEAKER 0
+Okay. Okay. So like some more of a, like, similarity based kind of kind of approach. So we have like so if the rules a primary line similarity base, anything else is a very good answer. Yeah. Industry came across right. Mm. I think it came in. Clustering does not produce labels, but if you were to change it to produce labels, I think you could do that. But then you would go back to basically having a sort of similarity based kind of classification. So is it, is it right and is the answer is not incorrect, but there's a bit of additional steps to put into it. Okay. So all all all those answers are very interesting and very good. I am going to go over a few that I want to propose as as potential answers. First off, as you might expect, this thinks, oh, there's an X and Y. That's very interesting. It looks like you've your very nice plotted on on on a nice graph like this. So how do we separate those two classes? Well, none of you see it physically. I think that, you know, some of those answers become extremely a lot more obvious. But let's let's go over a few of them first off. And that is possibly the worst possible classifier you can think of. You just memorise the class of each point and that's it. If, if, if the if the new point is one, two or three, you assign positive. If it's four, five and six is negative, your training error is zero. It's going to do perfectly on all the training set is extremely fast. It's low space. However, if anything new happens, if P seven appears, well, you out of luck, right? Because you don't have that data, you just memorise it. Is this like a memo? Or you can do that with a simple list in hyphen. Not, not, not great. So let's take that and remember, this is the worst. Now let's go into additional layers of complexity. So solution two, which I've heard, is that you could have a rule if X is superior to free, then negative or otherwise positive. So there is a bit of a training error here. Right. Because if you do this with those labels, actually find out that some of those might not be. So I don't know if it's the case with the numbers that I put. I haven't actually made the calculation, but it is possible that if you have a rule like this, then you might make some misclassification. So this does not generalise well unless you make it slightly more complex. However, it generalises a bit more than just memorising, because if a new point kind of comes up, a new document and let's say it's here, at least we can make, we can make a classification. You might not be correct, but we can do it. Mm hmm. So this adds another layer of complexity. And this is the primary claim that I also heard. So now let's just say that we use a line to classify. We define it as y equal 1.5 times x. So that just ends up being this line. And then we look at this training error. Zero. Well, you know, it's perfect at classifying what we have. A generalisation error is also low because you know you can expect that if a points is a new point arrive and you document arrive and ends up being here, it's not unreasonable to think that it's going to be negative or here positive. So it's quite good. And then we can define that. I mean, a line can be defined in any dimension. Right. It's just basically the primary function of a line. So good stuff. Usually a pretty reasonable answer. So let's add a bit more. So I also heard neighbourhood and yes, that's true. Actually, if you've done the full lab in the similarity lab, you, you will see that I did make you implement a similarity based classifier. So here what we do is we just look at the neighbourhood of a point and then see whether it is closer to a negative or positive document and then classify based on that. So here we're going to see, Oh, look at this. So you gave this a bit more expressivity. So when we say that the classifier is expressive, it means that it can model more complex shapes. So a simple line is not very expressive. A simple rule is not very expressive. Similarity based usually is quite expressive because you can have very nice and complex shapes. And I think we could assume that this is going to generalise quite well. The new data I think looks quite reasonable to me. And let's look a bit more. So what happens now if instead of having a single rule, we combine multiple rules and this is what you were referring to.
+
+SPEAKER 1
+And I know, I mean. Yes. How do you get that line?
+
+SPEAKER 0
+It? How do you get that line? Well, this one, I hadn't traced myself with my amazing PowerPoint skills. But this is actually you can actually draw this systematically. This it's of ordinary diagram. So basically what it does, right, is that you just look at any point and then if it is closer to read, you point it, read it is go to blue ribbon in blue. And then if you do this, then you end up with this kind of implicit line. The line doesn't actually exist. It is defined by the data. Right. But I'm just waiting the line to make it easier to understand. But. But yet you're right. Like this. This actually wouldn't appear. And actually, this is a terrible example because an actual voice or diagram wouldn't go like this. It would just continue at this because there's no points here. Right. So whatever is closer to red stays red. All of its kind of the blue stays blue. Does that make sense? Kind of. Well, I'll try to see if it fits something like that in a lab. Okay, so we're going back. So we had one rule before. One, I believe we have multiple rules and we combine them. So here this make a tree. If X is more than two, then positive. If it's more than three, If it's no. Oh, I forgot to put a yes and no. Oh that's not very good. So yes is first and no a second. So if less X is more than two then here. And then if y is more then freedom, negative. And otherwise we just go down the tree like this and that gives us a label. This can also define a line. So same question here. That line does not actually exist. It is defined by those rules, right? And there are algorithms to compute this kind of tree automatically from the data. So we've seen a few classifiers, different levels of complexity. They all give you different kind of they're not all the same in terms of expressiveness. And we'll see more. We'll see why that's important later on. For now, a bit shorter. 2 minutes, really. What is it that made the minimal razor a terrible, terrible classification model compared to the other examples? Even the worst of the other example is a lot better than a memo riser. And can anybody tell me why starting the time and now ever What?
+
+SPEAKER 1
+He.
+
+SPEAKER 0
+I don't want that to go. Might as well if you to us.
+
+SPEAKER 1
+Comfortable.
+
+SPEAKER 0
+I've always wanted to do things like this. It's very easy to go. All right. Anybody want to hazard an answer? Yes. Someone is pointing a finger. Yeah. They sound like our our.
+
+SPEAKER 1
+So when you think about what it is, every time that you do that, your degree is a grinder, we have to retrain. Yeah. More like drug treatment. Uh huh. How did you react to this training?
+
+SPEAKER 0
+Okay, so that's it's not a complete. And so it's on the right track. Yes.
+
+SPEAKER 1
+Yeah.
+
+SPEAKER 0
+Exactly. It's not a classifier. It's not a model, really. I mean, if you think about it, right, All the others, there are models. What's a model? A model is a simplification of the world. A 3D model is a version with all a like, I know what your background is, but you've done some mechanical engineering. You also have models there that the model is a simplification of the world that we use to make prediction. Memorising the data is not a model, therefore you cannot make predictions. So even if you train it, train, it doesn't matter. You cannot make predictions because it's not a model memorising the model. The data is the data. And that's what makes it a terrible, terrible classifier. It's not a classifier. The other models can make mistakes, and that's fine, depending on how good they are, how they were trained, they thought they were fed and so on. But at least they are modelling the world. A line is a simplification of the world here. So that's that's the main lesson that I want you to try to get from that is that all models are useful, although those are wrong, but some are useful and in this case we'll see why that is the case. Now I want to speak about something called generalisation. So the core assumption of machine learning is that we are feeding data to the classifier or whatever algorithm you are doing that is representative of the world. For example, let's just say I'm building an LP model and I want that model. I want to feed your coursework reports. I know they're going to be great, right? And I want you to classify how good you are at English. Oh, very. I mean, fairly standard. And they'll be test, to be honest. You can have many cool features like the vocabulary, the length of sentences and so on, and and then it tells me how proficient you are writing. That's great, right? So let's take this model and then I fly back to my home country, to my hometown, and I use it there. What do you think is going to happen if I take a model which has been trained, a bunch of people here in an English university speaking English, and I want to use that on, you know, French speaking people to do something else. It's not going to work. Right? Because we have it's a different data, basically. It's not representative of how I'm going to use it. Conversely, if you're building a chat bot, right, and you want it to interact with people in the UK, but you train it with data you extracted from before, it's not going to work very well because you're going to have to deal with different languages, different many, many different things. So you've got this another activity. Interesting. So knowing that our data is representative of the real world is the core assumption. What issues do you think could arise from a data slash reality mismatch? And I know you're very close to that. And so I think you don't even need forgiveness for this. I think one one should be more than enough. Feel free to discuss it. What about it? I know you have the answer already. You've been doing all the readings.
+
+SPEAKER 1
+You. And.
+
+SPEAKER 0
+So anybody can give me some answers. You had your hand raised already. I'll give you priority. Quite. Quite. Please. I have a really good high rate of error. Yes, That's more like the effect. The effect of the issues. Not really the issue itself. But you're right. That is what's going to happen. It's going to be terrible. So, yeah, error rates. But also, like some of the biases that Joel was talking about in his lectures are like also like problems. But what are the actual problems? Yes.
+
+UNKNOWN
+So like any of the data that you're using is.
+
+SPEAKER 1
+Just irrelevant in this. And then she also mentioned that later. And so she also mentioned that like that example that you guys gave about like organisations not knowing how that's going to work as well. So again, like if that was true, then it would say that like, oh yeah.
+
+SPEAKER 0
+Simple bias, basically. Yeah. Right. So yeah, that's correct. Like one of the, one of the issue that you have is just have a biased sample of the population. But yeah, anything else that's even more an LP dealing with language. Yes.
+
+UNKNOWN
+So if it was trained for like very. One of those.
+
+SPEAKER 0
+So, you know, it was not a. Well, it was good. Yes. Well, that's that's true. But this is what we're trying to to make it better. Right. So the generalisation error basically is that we want the model to generalise, which means to be able to perform on unseen data as good as we can. Yes.
+
+SPEAKER 1
+If you're training the.
+
+SPEAKER 0
+Uh huh. Yeah.
+
+SPEAKER 1
+Hmm. I agree so completely. Yeah, me too. Much feedback. We get some result that doesn't apply solicitud to an expert. Hmm. You would be going to have, like, the rules of physics seven.
+
+UNKNOWN
+Which is different than what we used to.
+
+SPEAKER 0
+Yeah. So that's. Yes, that's, that's, that's very cool. Right. So the vocabulary itself. So this is so this is not exhaustive by any means. Right. But this issue that I just came up with when I was making the slides yesterday night very late. So probably a lot more than than than this. Right. But so I mentioned geographical reference, the difference in the state before for language difference, obviously, you know, sentiment that is is trained on English, not going to work on French and all the languages are also cultural differences so worth changing, meaning based on the main culture of where you're applying slang. I'm sure there's many words that you use that I don't use and and vice versa. Even though we're all living currently in the same country. Time difference changing vocabulary. So I mentioned before with the warning meetings, if you train the model on Shakespearian English and then use it now, you're going to be very disappointed and vice versa. And then concept drift, which is when words change meanings over time. So not just new words, old words disappearing, but actually the word stays the same, but it's meaning change. So maybe one one very simple example of this will be the word literally, which has become another word for figuratively, even though the literal definition of literally is the opposite of that, or at least it was until recently. So words change meaning over time, and that's fine. But that means that if you train at an LP model, you're going to have to refresh it on a regular basis. You're going to have to adapt it to where you want to apply it, because otherwise it's going to be rubbish. So the main goal of training, classifying models or any sort of LP models is to generalise. We don't want the thing to work only on data we have. We already know that, that we have, we want it to work on data we don't have. We want to deploy it in the in the world, right? If you want a chat board that can only answer questions that are already in the syllabus, then you just wrote in queue with extra steps. So therefore okay, consumption of data is representative of the real world. We say the sample from the same distribution. This actually has more meaning than this, but it's a bit more advanced than than what this class warrants. But therefore the assumption is that if our classifier is good on our data, it should all be good, also be good in the real world. And that is the difference between the training and the generalisation error. The training error is how good it is on the data we currently have. The generalisation error is how good it is or how bad it is at classifying unseen data. So obviously this thing here generalisation error. We can never know it because by definition if you don't have the data, you know we can't measure it. So all we have is tools to estimate this. And the process of training, a classifier or classification model is basically iteratively modifying parameters of the classifier until we minimised the training error in a way that is congruent, compatible, if you will, to minimising generalisation error. Yes.
+
+UNKNOWN
+So I was like, test that and then, you know, like.
+
+SPEAKER 0
+Yeah.
+
+SPEAKER 1
+So the question I had was like, this is related, but like how it is sort of like it should not be part of it because even like for like, oh, very common words, but it's not part of this training set, which is fine, but like there's going to be a part of it.
+
+SPEAKER 0
+She says, Yeah, well this, this word is being in common. It's not a problem. What is a problem if documents are unseen? So having unseen words is not actually a problem. They're just ignored in the classification. Right? So that's why your training dataset needs to be large enough to cover a reasonable vocabulary that it can expect, you know, within the next couple of years. And you pointed to training and testing said so I haven't gone into details into this, but this is how we usually estimate the generalisation error. Generalisation error is that we separate our data and then we train our model on one dataset and then we tested on the other said and then we do a bunch of other stuff to basically try to get a good estimate of how this is doing. It's not perfect because even though it's two different than it is two different partitions of the data, they're still from the same dataset. So they're not exactly like new, but it's the best we can do so far. But I'll go into more details about that in the future. Is a very rich topic, Very, very easy to get it wrong, so I want to get more time to it. Okay, so training classifier is that you have your precision model. Maybe it's a tree, maybe it's a parametric line and there are some parameters. So for parametric line, there's one parameter, right, is the actual angle of the line and maybe the the other one as well. So maybe two of your parameters in total. And we're just modifying this iteratively until we get a training error, which is low enough that we think is going to lead to a very small generalisation error. There are many ways of doing that. So this is, this is describing the training in the most abstract way possible because otherwise it won't fit everything. But this fits basically all forms of, of, of classification models. So some of these you might have seen before logistic regression perceptron, which is just a flavour of of no network or none networks in general or linear models, tree models like random forests, simplified free probabilistic detection models like Bayesian models are similarity based. We've seen this one already. Nearest neighbour is the one that you implemented the last lab and that I mentioned just now. Real kill classifier is another one is a bit similar. And then kernel methods like to machines. I'm not expecting you to know all of this, but just to give you an idea of the rich kind of set of flavours that we have in classification models. One funny thing is that none of these has been invented by computer scientists. It's always by someone coming from another branch like statistics or functional analysis just comes around and then said, I need to classify something. And then they use their math wizardry to build a model that can actually work. So cool stuff in general. Oh, look at this math. Okay, So I'm not going to talk about a lot of perception models because I don't think is that interesting to go into the details. First of all, if you don't have the time. And secondly, this is not a goal of this class to teach you all of the machine learning. There's a machine learning class for that. I'm going to go over what I think is the main classification model that you should know because it opens many, many doors, the logistic regression model. So the Lewis regression model is used for binary classification. And what it does is that it focuses on modelling the probability of the document being obvious in class given the observation of the data. And what we do is that we use the logistic function to squash the number between zero and one and give us a probability. So for instance, here. This is what a holistic model look like. So those are features you might recognise. There's only one here. X I should have pulled away as well. That makes sense because now although the Y is the label. Sorry. So those are our parameters. Feature. 05.13.05.1. And then basically those parameters here, 50 zero and 51 are the parameters that we're going to be iteratively modifying until we get something that minimises our training error. So yeah, look at this. You memorise this. This is just a details for the sake of being copied. So how do we actually learn those feeder parameters? We do that by optimising. So I bit a vocabulary first because I'm going to talk, I'm going to use those words and I don't want you to be confused. We talk about things like a lost function. So what the lost function is, is that it tells us how wrong we are classifying one symbol. So one documents we usually do not that as well. Then there is a cost function which usually refers to the training error. So how wrong we are at classifying a batch of symbols. So that could be the entire training data. It could be a subset of the data. Basically more than one. If you know that as Jake. And then we have the objective function and I'm going to use that later in the slides, which is just, you know, an arbitrary quantity that we want to be optimised. For instance, we can minimise the cross function and then of course function would be our objective function. That's just vocabulary. Don't worry about that. I'm going to be using those words over and over again. So how do we actually do the the optimisation of those feeder barometers? So I mean, I heard something called gradient descent. Very popular, very simple algorithm. And the way it works basically is the iterative update of five metres based on the current parameter and then minus some little portion of the gradient of the error with respect to the parameters. So that's what this means here. So this year, the ETA is just basically awaiting function. So you just fix it, I think, for the number. No, it's a very small number. We just said 0.001. It's a it's a constant. Don't worry about that. And this is the gradient of the error with respect to the parameters at time. T, So this is T plus one. And we just like incremental decrement and then keep doing this over and over again until we are happy with our training error. There are more learning the first than this, but this is the simplest one and this is the one that's used in, for instance, your networks. Once we have our nice parameters, we just basically fit the features in it and then we just do the classification. So for instance, here we have open metres and we found that the optimal parameters for that zero is zero free four feet, one is 1.5 feet, two is minus, 1.5 feet are free to be free and Ft4 four is 1.3 as well. And now we want to classify x one, which is this. And we just basically fit the lower frequencies here. And then in the in the part with the parameters, you can see the operation here, very straightforward. And that gives us a number which is zero 43. It's not above 0.5, so we classify it as zero. In another example here, we do the same thing. It gives us it gives us 058, which is above 0.5. So classify classified as one. So very simple. Don't worry. It is going to go into the lab. I'm just. I'm just introducing for now. So now this is great. If you have a binary classification problem like zero and one or positive and negative. What happens if we have more? Well, actually, it's a fairly simple thing to do. Right. We can turn any any class classification problem into any, well, binary classification tasks. So, for example, here, if you had an emotion classification problem like happiness, anger, disgust, fears on this and surprise, we could just trained six classifiers with happiness. That happiness anger and not hunger, disgust, not disgust and so on. And then just use the highest probability as our classification and we'll be all good. Oh, this is not very interesting. Technically, this is actually outputting a probability, which is true. However, it's not calibrated. And what that means is that you shouldn't trust it as a probability. You just use it for classification. Don't don't trust it. It's not reliable. A another. So now the reason why I like logistic regression as an introduction to classification is that it's very easy to go from logistic regression and build to neural networks, which are a lot cooler. You can think in a newer network, you can think of each neurone as being a small logistic regression by itself. And we just take those logistic regressions and we just chain them together and we train them with a special algorithm. And then we have our nice network and everything is usually working quite well. So this is how it would look like if we did it in a graphical manner. So you can see features x1x2x3 and this is the parameters. If you don't want to do a feature free and then this is our well, logistic function that we can replace by any of those functions as well. And this gives us a output that we can use to classifier. Just take this and then plug it into another one and another one, another one and whether you have a network. So here, this is a very simple neural network with only free hidden layers. So when we say hidden layers, what we refer to is those things here. So you can see this one here, another one here and another one here, and then an output. And then every time this is a logistic function, we just feed the output into a next layer and then just feed the output into this layer and you can follow the rules. And usually it's quite straightforward. What we call the forward pass in a new network is when the signal actually goes from one end, from the left end to the right hand of the network and we call the backward pass is when we are propagating the gradient backward to train all those parameters. Once again, you don't memorise this. Don't be scared. This is fine. This right. We use the chain rule to basically compute the gradient for all of those, like some kind of steps of the classification. And then we just change the fine metres in all that network iteratively until we have once again a training error which is satisfactory almost at the end of it. Now one big problem with the networks is that you can see here we have free layers, but you can add as many as you want. And in the monitors you had that the more expressive your network is. And let me express what I mean, that you can fit very complex shapes in the data space. And that leads to something called overfitting, which is not good, right? Drawbacks. Data hungry takes a lot of data. The train is very inefficient. It is a long time to train and it's overfitting, which means it's memorising the training data. Now, I don't know if you remember, but I think I clearly said that this is a big no no to make a classifier, right. Because if you start memorising stuff, then you're not classifying anymore. You're just basically, you know, repeating the data as it is. And this is what overfitting is. And then we have techniques that we use to basically overcome that. So how do we do that? It's very easy. I just said that basically. Oh, like it's time for this. Yes. Okay. So now, Hendrix, I'm going to give you five choices of model one and model two, and I want to know which one do you prefer? So which one prefers model one? Hendrix. Which one prefers little, too. Okay. I like this one. Well, the one. Model two. Okay. If you have your hands on this one. Model one. Model to see there's a more split now.
+
+SPEAKER
+Now, that's very interesting.
+
+SPEAKER 0
+And what about this one model? One model, too. This is brilliant. Exactly what I expected. Which is always nice. What we just did right now and then trying to find what is the best trade off between having a simple line and making mistakes. This is a process called regularisation, and they are techniques to do that automatically in machine learning. So paraphrasing Occam's Razor, which I'm sure everybody knows if you have to explanation for something. Usually the simplest is the most likely to be correct. So what we want to do with machine learning is that we want to find the best compromise between minimising the training error like this one here and minimising complexity like this one. So obviously this one is making a lot of mistakes now. There's only like what, five red ones and four of them are wrong. That's not good. And we consider that a simpler model tends to be more robust. But once again, don't worry about this. Just understand the main concept is that the way we do this is that instead of just minimising the number of errors, now we minimise the number of errors plus the complexity. This is just a wait. This doesn't have any like complicated meaning. So we want the complexity of of the model. We have many ways of modelling the complexity. It depends on the model you're using, so don't worry about that. But you run the research. It is very interesting. And then basically finding this is what we just did by hand raised. This is basically how many errors are you willing to make to keep a simple model? This is how it happens in practice. This is not as complex as it might look. So L1, L2 and elastin improvisation. Basically what they do is that they just minimise the number of weights that you use. Don't worry about the math, except for the example, and I'm not going to ask you to repeat that in a quiz as long as you understand the core concept that we're what we're trying to do. And just on time, some conclusions. Well, first off, you may think, why would I care when? Why would I want to classify something as just this pointless? Well, you should. Writing something like a chat bot. You might want to know if your user is happy. That would be sentiment justification. You don't want to know what your user wants to do, What is their intent and what they want to do. You want to know what their emotional state are. They're sad, angry. Are they surprised? Mm hmm. So that's also like an emotion classification problem. So all those things, right. They're actually quite interesting when you're interacting with people vs users, because users, you know, they interact with language and this is natural language processing. So, you know, all fits. I have some recommended reading. Chapter five of speech and language processing is free online. There's no excuse on on logistic regression. If you want to have a bit more details about how it works. A more optional research task and thus linked to the chat bot. If you want to go a bit deeper into it, you can research what online learning is, how it differs from batch learning and how it could be integrated in a live environment like a chat bot. And and if you really want to go deep into it, research, what's the reference, what a recurrent neural network is and how it differs from aggressive training. And that's it for today, because I can't speak any more. Thank you.
+
+SPEAKER 2
+What's it like to come up with?
+
+SPEAKER 0
+Sorry, I didn't hear what you said.
+
+SPEAKER 2
+When I ask you a question about the classification, all that people. I just knew that I was missing out. Some things I presenting this. Things like how I said it.
+
+SPEAKER 1
+Yes, yes, yes.
+
+SPEAKER 0
+Well, that's why I didn't answer, because I knew a lecture was going to be very related.
+
+SPEAKER 2
+So. But I said.
+
+SPEAKER 0
+I'm sorry, I can't hear. Can you speak louder?
+
+SPEAKER 2
+That is just because I didn't give you the concept.
+
+SPEAKER 0
+I mean, sorry. Let me just stop this.

@@ -1,0 +1,269 @@
+SPEAKER 0
+Okay, So today's lecture, I'm going to continue the cherry topic now. So joking aside, the dark side of an LP, I think that's quite fitting given today's Halloween right? Thoughts, fake news and filter bubbles, all the topics we're going to talk about today. And yeah, split up in those sections. And I think because it's that time of year where days are getting shorter and so on. There were also two movie recommendations, so look out for those. Okay, so and talk about bots and fake news first. So let's get you talking to each other as usual. Think about what are some of the ways in which bots can contribute to the spread of misinformation on social media platforms. Let's talk to each other for 3 minutes and then share with the class. Let's get some things started. Got some? Exactly. Wakes them up. Honey, are you timing this issue at a time.
+
+SPEAKER 1
+When it's like.
+
+UNKNOWN
+It's. To. All right. I love the old one, but I.
+
+SPEAKER 0
+Still got a bit of time.
+
+UNKNOWN
+Going on. So finally it's coming round here this week.
+
+SPEAKER 0
+What are some current events rights?
+
+SPEAKER 2
+I look forward to write another.
+
+SPEAKER 0
+Round of yo yo yo next week. Yeah, we have to do ours as well.
+
+SPEAKER 1
+For a couple of projects.
+
+SPEAKER 0
+Somebody else is kind of like travel.
+
+UNKNOWN
+Yeah. Yeah. You know, when I first that I had.
+
+SPEAKER 0
+Okay, that's probably enough. Okay. Okay. How are you feeling? Energised. So, yeah. Who wants to share their thoughts or about share thoughts spreading or contributing to the spread of misinformation? Yes.
+
+SPEAKER 3
+There was this research and it is quite accurate because I might get almost anything. So we had supercomputing and it started to pass and we started posting very positive messages about, Oh, look at this guy, like he's so great. Look at this guy. You did look at his license plate and then like, of that kept going. Like, it's our job to have positive energy, positive interest. And it's kind of like an algorithm that they built to, like, see like, Oh, this person is great, so this is fantastic. And then why would you do such? And I didn't because for some reason he like when people start seeing like, Oh, this guy is really great and you're like, I'm going to be join this group. And then what happened was that this is all this misinformation like, so it's like go self-worth person that he's fighting against.
+
+SPEAKER 0
+And.
+
+SPEAKER 3
+They like the bot started like posting stuff like that's terrible about the person that he's fighting and then it's it's sort of like started to go down and stuff like that. Yeah. So basically an algorithm that they built to like track job interest groups and then like it turned to is like just going down the other person.
+
+SPEAKER 0
+Yeah. And I think one, one thing that's interesting about that is could you hear that roughly. Yeah. People nodding on the back. So I won't repeat all that. But I think the interesting thing about about that is that like you're saying, the bots being used to popularise a person, you know, an account really of in this case, as you were saying, initially spreading positive sort of messages. But then because of that rise, rising popularity and the attention that is then paid to that account, that can then be turned on, that can then be exploited, all that, all that kind of like tight network that's been created there and it's attention and the way that that the algorithms drive the things that have got very, very recent attention I think is interesting about that. Are there any other thoughts about this? Yeah.
+
+SPEAKER 2
+And I was. If, say, that social media is the title of the it's not as if someone is posting on social media and possibly not able to recognise it. Yeah, that's true. But so far this year, 13 has a few sites using words that focus on social media so that the social media can recognise this, use what can not recognise and then post on a social media.
+
+SPEAKER 0
+Enough about this class. I'd like to see that. I mean, spreading around the world. I think you're overestimating the interest in this class. But. But, yeah, I get the point. Yeah.
+
+SPEAKER 2
+The folks can use nothing but easily go nice. But this kind of discrimination brought a spark. And this is what's nice about what's taking place. Mm hmm. Because they're not recognised as respectable values.
+
+SPEAKER 0
+Yeah, I think you're touching on an interesting point, which is the detection of fake news or identification of it and the difficulty of automating that detection because. Yeah, because something that can sound completely legitimate is fake, because somebody has made it up, for instance, and there is nothing in the information itself to verify that, you know, whether something is real or fake. Yeah. We have time for one more. No. Okay. Let's carry on then, and see where this is going. So this was this is a picture of how one of the tweets, one of the first tweets that Trump posted after he was elected in 2016 spread on social media and the blue. I believe that the blue is is the bots spreading. So, you know, how do you spread? This is on Twitter and of course, on Twitter. Typically the mechanism of spreading fake news is retweeting fake news is retweeting a tweet. So you can see that the impact of the the bots is considerable in the scheme of of the kind of of the kind of retweets and the spread of when in this case this was the content of this tweet was something along the lines that he so Trump would have won the election had it not been for the votes of 3 million illegal immigrants because he didn't he didn't actually win the popular vote. So he didn't win the majority of all the votes. He won. He won because of the way that electoral system in the US works with, um, with votes being counted by state by state level so you can win the presidency, for instance, even though you haven't got the absolute majority. But the this, this claim of 3 million illegal immigrants is, you know, it's been debunked as fake essentially a lie. But the point here to see is that yeah, and this is just the example of the first tweet that well, one of the first tweets he posted in his presidency, we know we all remember, I think that when when Trump was president, he used Twitter as as very much a kind of a a way to communicate without without saying anything, anything more about that. But we can see the power of of of yeah. Using social networks to spread in this case lies or misinformation. And in this context, bots are actually so superspreaders you could say, well, this study says that this is this was a study that was published in Nature Communications, which actually examined the articles. I examined the spread of articles in 2016 and 2017. So around the time of the Trump election and also the Brexit referendum, and they found that they identified that 6% of Twitter accounts, so relatively small amount of accounts on Twitter actually were responsible for spreading 30% of the overall law credibility information. This small amount of of accounts in this case, they were identified as bots spreading, you know, spreading a large amount of misinformation. So so taking over overall being responsible for a large proportion of misinformation on Twitter. And the other thing about bots is that they are very fast at spreading misinformation because they read, if you want, they read very quickly. So within only 2 to 10 seconds on average from the appearance of the fake news that was being spread. So it was the average sort of length it took for that information to be to be spread. And what happens then is that bots amplify the fake content early on before it goes viral so they can contribute to in much in similar ways to what you were saying about this campaign. They can contribute to amplifying it, you know, just to spreading it and then to to to support it going viral and to being being picked up by by real accounts, by real humans and bots do everything that, you know, users do as well on the platform, which is following, replying, mentioning. And the authors say that this manipulates humans to reshare the fake content as well. And the authors talk about this as a as a social bias, as a sort of social bias that that the bots prey on, which means which means that people are more likely to to react, to reply or retweet that content. And what they're suggesting in this in this work is that social bots should be curbed to mitigate the spread of false information. By social bots they mean bots that that are that appear to be, you know, users on social networks. And another thing to say about that sort of topic is that oftentimes as part of this bots target influences particular. Because, of course, they have influences. I'll just you know, another word for them is it's just they are users with a lot of a lot of followers. And so therefore they are multipliers of information. Um, and this was a research that looked particularly at the, um, the tweets on the use of social media or Twitter in the or during the independence referendum in Catalonia, so part of Spain in 2018 and their, the bots really targeted influencers who supported the independence and they, they targeted them with negative and violent contact content to increase the conflict as a result of that, which is what was talked about as social hacking. So if you get the influencers to be, you know, angered and riled up, then they are more likely to be more vocal, even more vocal about their goals. In this case, this was, you know, independence or secession, you could say, from Spain and Spain, clearly contributing to that kind of. Yeah. To to that kind of goal that that was being pursued. And so and what the authors are saying that is that probably the influencers didn't actually realise that they were being targeted by bots and they didn't realise that they were spreading misinformation. Yes.
+
+UNKNOWN
+Yes, they could possibly.
+
+SPEAKER 3
+So I wanted to say. They.
+
+SPEAKER 0
+Sorry, I couldn't quite get. Well, what's your question? What's the point?
+
+SPEAKER 3
+What's the point of a company account verification. It seems so easy to create.
+
+SPEAKER 0
+Uh huh.
+
+SPEAKER 3
+You know what? Because that's one family's information. So if this one released from the Internet. Houston. They said, John, you don't have to be very committed to. So what's the whole thing like? It seems so easy to.
+
+SPEAKER 0
+Yeah. So the question was, what's the point of account verification? I guess if it often fails and actually is not very effective? I think that's a good question. I think the that what it shows you is that the mechanisms that platforms like Twitter have, for instance, aren't very effective at mitigating or kerbing this. They are obviously trying in different ways and so on. And so I don't I don't I know they're working hard on this and yeah, I don't want to be I don't want to just, you know, do Twitter bashing here or anything like that. Right. Because I think they are trying. But I think there's in many ways it quite an effect that there was a hand up back there that.
+
+SPEAKER 2
+The issue.
+
+UNKNOWN
+That's going to look a.
+
+SPEAKER 2
+Basically asking the question. Mm hmm. Basically.
+
+SPEAKER 0
+Yeah. Yeah.
+
+SPEAKER 2
+It gives you.
+
+SPEAKER 0
+Yeah, that's a nice idea. So to the account verification you're saying could involve on asking questions of the person who wants to register for it for the account and the answers they give would then be checked by human. Or would it be some sort of. Quiz that would be automatically passed. Yeah.
+
+SPEAKER 2
+It is a human.
+
+SPEAKER 0
+Yeah. Yeah. So let's review. Yeah. How. So I said, I think I could see some problems with that as well. Like, for instance, I. But it's a good day. Yeah. Okay. Yeah, it's a good idea. I think there could be some problems with doing that for a whole network. For instance, it's quite expensive, so you would have to have people checking the sort of applications to get an account all the time. And secondly, it could also the humans checking, it could also make mistakes or be biased for some reason or other. So but yeah it's it's difficult problem to solve, but I think it's a nice idea regardless. Yeah.
+
+SPEAKER 3
+This is the third.
+
+UNKNOWN
+Party like we're interested in how.
+
+SPEAKER 3
+Laws are being used and if it's on your, on your browser, it actually tells me like this person is like, you know, they're content. But actually history shows that like, a lot, like email may not be a real person. So just be aware of what you're saying. Yeah. Yeah. But um, so if you are aware and that's it doesn't mean that you're concerned about getting stung by like a fake person, you can easily just check that.
+
+SPEAKER 0
+Yeah, I think that so. That's right. I think that companies like Twitter are putting a lot into labelling content and giving warnings now. And so if you flag something out, you know, as fake news or whatever it might, it will get checked by human. I think typically. And there are also algorithms that try to detect some of this automatically, but I think it relies a lot on other users flagging content and then moderators will look at it and then they might the content might get removed if it's offensive or it might get a flag to say this is, you know, this is potentially spread by bot or this is potentially this is contested. I don't know exactly what other labels they have, but they're doing a lot through kind of labelling and warning messages on the platforms now which are which. Yeah. Which, you know, it doesn't solve the problem of a lot of content being dubious or potentially fake, misleading or whatever, but at least it does flag it as such. Um, so yeah, my, my next part here is talk about filter bubbles. So again, talk to each other for 3 minutes. What, what are filter bubbles and have you experienced one on your social media? It's good that they are actually thinking about this stuff a lot.
+
+UNKNOWN
+I think we have to help them and we have.
+
+SPEAKER 2
+To be examples of it.
+
+SPEAKER 0
+Yeah. And what do you think the next the next year and Twitter might be a. Control orders, hellscape the hellscape of something that is the word Musk himself used. He doesn't want it to be a hellscape, but it's within.
+
+SPEAKER 1
+You're going to go that way.
+
+UNKNOWN
+I can't believe I don't know that. Well, that's a nightmare. So. Yes. Yes. I.
+
+SPEAKER 0
+But the thing is, Twitter doesn't ban bots as well, which allows them. Yeah, yeah, yeah, exactly.
+
+UNKNOWN
+Yeah. Yeah, yeah.
+
+SPEAKER 1
+Alexander got.
+
+UNKNOWN
+Yeah, I. But.
+
+SPEAKER 0
+Okay. Thank you. So have you experienced spills and bubbles?
+
+SPEAKER 2
+Yes.
+
+SPEAKER 0
+Thank you. Have you experienced filter bubbles in your on your social media? Yeah.
+
+SPEAKER 3
+Yes. On Tik Tok and on Twitter.
+
+SPEAKER 0
+On TikTok and Twitter.
+
+SPEAKER 3
+Like topics. So like, like animal videos, like always go like captain stuff. It's also something that I wanted to do more of. It's a huge size, but I don't deal with it. So he gave me, like, that stuff and. Mm hmm. Yeah, I know.
+
+SPEAKER 0
+I don't know how their algorithm works. Yeah, maybe. Maybe you're not doing enough on Twitter for. For its Twitter algorithm to know to know you well enough. And so you're getting random stuff. I don't know any other experiences. Yeah.
+
+SPEAKER 3
+Instagram search page. Like you click on it once and you can just get incredibly revealing stuff. Like.
+
+SPEAKER 0
+Like. Right? Yeah, like.
+
+SPEAKER 3
+It's gets very curated alphabetically, much like what? You stick to one thing, never go to anything else up or down.
+
+SPEAKER 0
+You take your stuff. Yeah. And do other.
+
+SPEAKER 3
+Things in the past. But it's very focussed so it's very open. It's very much curated.
+
+SPEAKER 0
+Yeah, absolutely. I have a similar experience with YouTube as well. This just shows me a lot of climbing and running videos and then stuff about the universe and some occasional stuff about natural language processing, but I try to keep work out of it, but sometimes it creeps and knows another hand up at the back. Yeah.
+
+SPEAKER 2
+Yeah. I think those are most interesting because the way to use it is, I mean, this is mostly just talking to people.
+
+SPEAKER 0
+Yeah, I hear about. I don't use Tik tok. I guess I'm too old for that. I should try, though. For work purposes, I guess. But yeah, I've been reading that Tik Tok is particularly aggressive in its in its way it pushes content. But yeah, that's what you're saying. Yeah.
+
+UNKNOWN
+It's evocative of. They keep saying you.
+
+SPEAKER 2
+You search and you wait where it's like a diesel engine or. Half the future. Interesting video.
+
+SPEAKER 0
+Right? Yeah.
+
+SPEAKER 2
+Like, he's first of all, it's actually he's accounted for in the expense of the user base of these important.
+
+SPEAKER 0
+Uh.
+
+SPEAKER 2
+Yeah.
+
+SPEAKER 0
+Mm hmm. How? Yeah. Thank you for that. One more behind you, as you say.
+
+SPEAKER 2
+So I can select the soft body stuff, but it going be like wishy washy. But we saw some interesting stuff so far to some of.
+
+SPEAKER 0
+Plastic.
+
+SPEAKER 2
+My guess. Get some pretty stuff based on some.
+
+SPEAKER 0
+Yeah, I think this is some sort of thing. Isn't that whereby you've got to be careful where you click or where you, where you post scrolling or whatever, you know, because it can instantly affect how it curates content for you from then on. Okay, one more here. Yeah. Oh, I think.
+
+SPEAKER 3
+It's all my experience, but it's. You should do that.
+
+SPEAKER 0
+Yeah. Yeah. Yeah that's, that's right. That's I think a nice summary of, of what people are saying is, is harmful or Yeah. Polarising about being exposed to a filter bubble. So it's like an echo chamber you get this. So what, what your opinions, your interests are being amplified, are being repeated, rehearsed all the time, and you don't get exposed to the other side of the spectrum. And I think especially with well, arguably with politics, this is what's what's leading to a lot of the polarisation we see in societies, particularly in the in the US, we see it, um, a lot. So I mean he has an if he has a sort of definition of filter bubbles, not where you need it, but filter bubble is essentially information based on your views, your likes and your friends or, you know, people you follow and their views as well and so on. And Facebook probably was the platform that made this popular, but it is now literally all over social media. And we just heard lots of different examples of it. Um, we also heard that yeah, the this kind of metaphor of an echo chamber being used to describe this, which means there is an open discourse of diverging opinions, but you tend to be exposed more to one side of the political spectrum rather than a discourse of yeah, of various views really. Um, and. Yeah, there is there is some there are some theories, let's say, but claim that this is how fake news hoaxes and conspiracy theories are being spread. They do tend to get propagated in these echo chambers and then they go viral from that. And then it's kind of has this effect that, you know, once it's everywhere must be true. Right. So, you know, oh, I've seen I see this loss of loads on social media. Must be a lot of people are tweeting about it. A lot of people are talking about it. So it must be true. Which is, of course, not the case. So let's watch the trailer. We're seeing the social dilemma of the film. If you if you have good for those of you who haven't seen it yet, it's on Netflix and I recommend it. So let's watch the trailer.
+
+SPEAKER 1
+And you go to Google and type in climate. You're going to see different results depending on where you live and the particular things that Google knows about your interests. That's not by accident. That's a design technique. Start again when you go to Google and type in climate change is you're going to see different results depending on where you live and the particular things that Google knows about your interests. That's not by accident. It's a design technique. What I want people to know is that everything they're doing online is being watched, is being tracked. Every single action you take is carefully monitored and recorded. A lot of people think Google's search box and Facebook's just a place to see what my friends are doing. What they don't realise is there's entire teams of engineers whose job is to use your psychology against you. I was the co-inventor of the Facebook like button. I was the president of Pinterest. Google, Twitter, Instagram. There were meaningful changes happening around the world because of these platforms. I think we were naive about the flip side of that coin. You get rewarded by parts like thumbs up and we conflate that with value and we conflated with truth. A whole generation is more anxious, more depressed. I always felt like fundamentally it was a force for good. I don't know if I feel that way anymore.
+
+SPEAKER 3
+Facebook discovered that they were able to affect real world behaviour and emotions without ever triggering the user's awareness. They are completely.
+
+SPEAKER 1
+Clueless. Fake news spreads six times faster than traders were being bombarded with rumours and. Everyone's entitled to their own facts. There's really no need for people to come together. In fact, there's really no need for people to interact. We have less control over who we are and what we really do. If you want to control the population in the country, there has never been a tool as effective as Facebook.
+
+SPEAKER 0
+Okay, stop there. You get the idea. It's clearly dramatised, but it's quite good dramatisation and it has a lot of people used to work or. Yeah, I think they all are former employees of those large social networking companies. So you basically have them talking quite openly about what it's like to work in these companies. So it has a nice sort of element of a documentary filmmaking in there as well. So I can recommend that. And I think what it boils down to is the attention economy. This is this is a sort of model that's been proposed to describe the way the essentially the Internet companies business models work. And this is clearly and we all know this we it's a kind of a you know, it's not it's not free the Internet. It's only it's only free because we are being exposed to ads. And that's how these companies make money through ad revenue and the ways in which these are being served to us. Of course, as now we all know this based on our content views, our interaction with with that content. And there are another there's a vast amount of metrics underlying all of that. All of those interactions, clicks, news, press logs, posts, comments, dwell time and so on. You can that you can essentially metric our behaviours. A lot of that we also use for research when we look at it in terms of computer interaction, for instance. But ad companies use this to understand what are the things we are interested in because we look at them for longer or dwell on or click on and so on. Is this the currency that you pay with on the Internet is not money. A lot of the time it's attention, right? You actually pay by giving your attention the scarce resource that is your your your attention to to the content that is there. There are, of course, other models there as well, like pay per view or subscription models and so on. But but a lot of the ways in which it works is really based on, on us. And yeah, the Attention Economy is also a book by or book by the important back from 2001 which which for instance as attention as a focus mental engagement on a particular item of information. And we have a lot of this we see a lot of this in the ways in which things like recommendations work on on the Internet. Think about think about Amazon recommendations, for instance, or recommendations. Well, you know, essentially the ways in which content is curated, all the social media platforms and our stuff is just being recommended to us being being being brought into the foreground for us to, to, to consume. This is, if you want, personalised or filtered based on your data, what the algorithms know about you cookies as well. Like when you accept cookies, they store a lot of information about what other websites you look at, for instance. So, so that one other company, you know, knows a lot more about all the other things you do on the Internet, not just what you do on its own platform as well. And also, of course, things like the that what you do on the platforms like liking things, retweeting, Rickrolling and so on. These are these are in some ways recommendations in the sense as well that anything you do, the algorithms can use to understand more about about you and tailor the recommendations with respect to your actions. The other thing is that the companies have understood our understanding and are exploiting that, that the signals for participation on these platforms act as psychological rewards. So you have your, you know, the shares that you get for the content, the hearts or likes, the comments that you get these kind of all inside the dopamine response. So it's like a response that you get to an addictive substance. And that's why social media is actually physically addictive as well, or can be. And if you want, you know, within that you see that there's that. So what you might call an ugly underbelly of social media and you have more reports of depression and suicide in younger people. And you might have seen the case of Molly Russell. This is very current. There was an inquest. That was. How so? So Molly Russell tragically took her own life. After being after consuming a lot of content on Instagram on suicide and self-harm. And I see there's been an inquest and the coroner found that the the, the, the Pinterest in this case and Instagram contributed to her death in a more than minimal way. And the this could be this could become a significant case, as it does sort of hint that social media companies could actually be held responsible in future for harm that occurs to people who use that their platforms extensively. Of course, the platforms tend to have this neutrality model where they say, well, we just provide the platforms. We don't it's not our responsibility to make sure the content is not harmful. That used to be the way. But more and more, they're not getting away with that anymore. And they have to take responsibility and they have to invest in moderation and they have to make sure that there isn't harmful content and so on. And cases like this can can hopefully speed things up. And yeah, if you're if you're a hopeful person anyways, if you're a cynic, you think, well, nothing will ever change. The problem with filter bubbles is that, you know, they come from a well, from a well-meaning place, um, because, you know, they've, they've been engineered by clever people who are thinking, you know, it's wouldn't it be great if we would always get the right thing at the right time? Right. The right piece of content at the right time. Stuff that I'm really interested in on social media. Wouldn't that be great? And that's what they created. And they these things work really well now. But the flip side of that is that they create what you might call an alternate reality and you are losing or people are losing their common reality. The things that they share, the the reality in common because they are in these bubbles where they have, you know, where they experience things, where they experience different perspectives and only those perspectives. So they don't tend to be exposed to the other perspectives. So we have this amplification of misinformation that can happen through that. And we get we get this that was briefly alluded to as well. Fake content is six times more likely to be retweeted, reshared liked and so on, because they tend to be it tends to be more spectacular, more sensationalist, more more like a painting to emotions. And so therefore they are, they are more likely to get seen, to get shared. And so the extremes get amplified as what happens as a result of this. You get you get this kind of echo chamber effect I mentioned already, and this can create this kind of then and US division and societies. Okay. So now I want to go over some examples from research as well. And there's another trailer. I think I have time. I'll play that.
+
+SPEAKER 1
+Who has seen an advertisement that has convinced you that your microphone is listening to your conversations. For all of your interactions, your credit card swipes, web searches, locations, likes, they're all collected in real time into $1,000,000,000,000 a year industry.
+
+SPEAKER 3
+The real game changer was Cambridge Analytica. They've worked for the Trump campaign and for the Brexit campaign. They started using information warfare.
+
+SPEAKER 1
+Cambridge Analytica claimed to have 5000 data points on every American voter.
+
+SPEAKER 3
+I started tracking down all these Cambridge Analytica employees.
+
+SPEAKER 1
+Someone else that you should be calling the committee is Brittany Kaiser.
+
+SPEAKER 3
+M.D. Kaiser, once a key player inside Cambridge Analytica, casting herself as a whistleblower.
+
+SPEAKER 1
+The reason why Google and Facebook are the most powerful companies in the world is because last year data surpassed Google in value. Data is the most valuable asset on Earth. We targeted those whose minds we thought we could change until they saw the world the way we wanted them to. I do know that they're targeted toward who was considered a weapon. There is a possibility that the American public has been experimented on. This is becoming a criminal matter. When people see the extent of the surveillance, I think they're going to be shocked.
+
+SPEAKER 0
+I stop there? Hussein The Hussein The Great Hack. One or two of you definitely recommend it. So this is who remembers the Cambridge Analytica scandal? Okay, So we do This is now a few years ago. But I think it's definitely it's definitely one to watch. So what the Cambridge Analytica scandal was, was essentially it was around the exploitation of two of the ways in which the targeting ads on Facebook works. And so the original tool was actually built by a researcher. Was it was it was he at Cambridge? Oxford? We don't know where he was, but Cambridge Analytica has nothing to do with Cambridge University, by the way. Right. And that's just what they called themselves. They were a consultancy. But the original tool was actually developed by a researcher, but he sold it to Cambridge Analytica. And it was a tool. It was a personality quiz on Facebook. You know those ones, right? And but if you agreed to it, you know, when you took it, you had to agree for a lot of your data to be shared with at all. And a lot of that data was, you know, all those data points about your likes, what you you know, what your political leaning is because of the content you would like and so on your friends. And so it's a lot of data that essentially was then harvested and and then used by Cambridge Analytica to then create to then allow the Trump campaign and the Brexit campaign, who hired Cambridge Analytica to create targeted ads for the people because they had these personality profiles and so they could target the people who would be more impressionable, more vulnerable to content from the right or the or the left or whatever to the to be exposed to via the why these ads. So this was a if you want a kind of personality targeted campaign that really targeted people and you know is now thought contributed certainly to the Trump winning the election and also Brexit being voted through as well. So as I said before, this other research that that basically links Trump's victory and the Brexit referendum to lots of bubbles and fake news. And this this research highlights that for active social media use for politics, this was actually related to less support for for Republican populists such as Trump, but for passive or uncivil social media use. So that's what they looked at. They looked at how active or passive people were and how that use it. And for those more passive and uncivil users, they were linked to an increase in the likelihood to support populism and Trump in particular. So these researchers ask the question, Are we exposed to the same news in the news feed? So when we are looking at that, when I'm looking at the news on my Facebook newsfeed and you're looking at the news on yours, are you seeing the same thing? And that in experiments where they looked at the newsfeeds from 1000 Danish users and they analysed information, similarity and you know, you know what that is? Information, similarity. And they found less than 10% in the big source analysis, and nearly 30% in the semantic analysis are in a filter bubble. So they didn't actually find a huge, um, a huge kind of support for the filter bubble hypothesis. So they only found 10% in this segment of users they looked at were actually in the filter bubble, more so in this semantic analysis though. So nearly a third they found that they're significant predictors for being in the filter bubble are the number of page likes group memberships and friends. So it makes sense, I guess, in a way that if you have um, completely separate and non-overlapping um, friends, group memberships and also the pages that you like, you are like more likely to be in the filter bubble compared to someone else who doesn't share any of those with you. There is a sort of self-selection bias that I talk about where the users themselves actively enhance the likelihood of being in a bubble through the actions and activities they think they do on social media. And overall, it's not as clear cut as it seems might be as summary as well. So this study looked at web browsing for about 50,000 people in the US, in the US, and they found that the. Social networks and search engines are all linked to an increase in the mean ideological distance between individuals and the same channels. Counter-intuitively, we're also linked with the increase in exposure to material from the less preferred side of the political spectrum. So they found relatively modest effects. And then I think we in COVID, we've we've seen some pretty devastating examples of what can happen with filter bubbles. The term infodemic was coined as part of that as well. So we had a lot of misinformation about COVID 19. And for instance, there were apparently 500 billion views in April 2020 alone on Facebook of misinformation related to COVID. And you may remember some of the fake stories were actually, you know, actually really harmful for people because it told them to drink, for instance, concentrated alcohol, and that would steal them or protect them from the virus, and it killed them. So there were you know, there was there was a single piece of misinformation which caused 800 deaths alone, according to research, for instance. So there is this really directly harmful misinformation. But if being followed can kill people, and we have seen examples of that happening during COVID. So what are some of the solutions we have? We have fact checking. And so I think fact checking falls under also what social media networks do. There are organisations that do this like PolitiFact and Snopes, um, journalists to do this live for debates and things where in the Trump and Biden debate, when Biden won the election, these were kind of fact checked live. So so a lot of this is sort of the idea of that relates to education, really. People need to learn media competencies, competency and literacy, how to spot fake news. So this should become part of primary school education really shouldn't that because it takes skill to be able to spot what misinformation fake news is? Yes.
+
+SPEAKER 3
+I think actually when schools do teach stuff like that, like learning how to check your sources and stuff and the other is like don't necessarily have the opportunity to go to school. So like, they're the ones who are more targeted at the news that they had. So I, I don't know necessarily education is well is just that the lack of access to education.
+
+SPEAKER 0
+Yeah yeah of course. Yeah of course It's always always the way that typically the well-educated aren't, you know they're already being educated and that's not the problem, but the problem is the lack of access to it. Um, so yeah, I'm preaching to the converted here. Of course, you know, you all experts in checking in and understanding, finding these things. Um, it's more about those who don't have access to education like this, um, who are struggling and there are. So then perhaps this is where tools and technological problems also come into play, things like flagging and moderating. There's also, there are advertising rules around political campaigns and so on. Now that that, that simply, you know, I think Facebook just bans political ads now because because of the problems they've had in the past. And but there's also regulations which may be needed. Now, if you think about the the suicide case there, I showed and talked about, um, they there's the online safety bill, there's GDPR, which is, you know, the general Data protection regulation in the EU and there's the online safety bill which is currently going through Parliament, which is currently in the House of Commons. This is brand new, so this is not through yet. And there are some issues with that. There are some concerns that this might actually inhibit freedom of speech, this might inhibit anonymity online and encryption and things like that. So the problem is there are problems with these laws and regulations that are being proposed as well. And so they are struggling to find the right way of framing these bills and laws. They don't overshoot the target, which is, you know, yes, they want to provide for a safe online environment. We all want to do that. But the way that the regulation might work might actually go beyond. So that's something to look out for as it's being developed. So here's my experiment for you is Google search first above all. So this is what I did. I typed in Chrome today. So this is the autocomplete feature, right? And we saw that in in what I've seen in trailers just now where they're typing climate change. Is. So I did that today. Climate change is or yesterday. And this is what comes up for me. And there's some worrying stuff in this you can see of. And this is sort of, I guess, a barometer of what people are searching for on Google right at a time. So do the same on your Google and post a screenshot of it onto our teams channel. Well, I've already posted my my one there and let's just see how different that search result is for each of us. So yeah, do that in your own to that now or do that later. It also changes over time. So that's 2020. That's it last year for me and this year. So it does change. So yeah, type climate changes into your browser. Take a screenshot and post it on two teams with your browser name and location. And that's it. We'll see you all on Thursday and Friday for the lifeguarding at the last. You're.

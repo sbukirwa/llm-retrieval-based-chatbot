@@ -1,0 +1,455 @@
+SPEAKER 0
+Very brief. I'm not doing much of a lecture, really. And we're going to have a bit of time for you to ask you burning questions that you have, because tomorrow is, of course, the deadline. Of course, book one. And may I have some questions about that? And we'll just talk about the standard stuff, questions that always come up as well. But, you know, this is what we did as part of this module to remind you, we focussed the first half of the module vaguely, roughly on natural language processing, where you learned about key techniques and principles and also cutting edge developments in entropy. And this really results in hopefully some practical, useful skills around development using an l, t, k, and python. And while you're all basically finished or nearly finished with your coursework, one kind of proofs, all that knowledge that you've gained and all those skills that you've gained in that. So in that sort of time, we've also talked about the sort of empirical and social societal concerns, or if you want theory where, you know, learning about things like algorithmic bias and other kind of critical issues in society around the use of AI and particularly around the use of, I guess, natural language based A.I.. And then in the second half of the semester, more or less, we focus on V design, voice user interfaces, and you're also gaining some practical skills there. And with regards to doing conversational design and that that you will be proven in coursework too. And that's kind of what coursework too is about. And using voice flow in terms of the assessments, the three quizzes overall, the last Christmas tomorrow, of course, as well, the final quizzes tomorrow and testing the lecture content. And then of course, to the two coursework, one being worth 40% and two being worth 30% and one each related to the practical topics that we covered. And what we also did was we decided to extend coursework one, of course, and make coursework to a lot simpler. So that course of two does not involve a report and is really just a demonstration of the principles of conversational design, which you're kind of gaining appreciation and, you know, practice through doing the labs. Labs seven and eight are all about those skills that you need to create coursework to. So there should be no surprises. So what's coming up now that we're nearly finished? So we have, of course, coursework one due tomorrow. If you do not submit on time. And if you're new to the University of Nottingham me, then I will repeat that again for you. You will lose five marks for each working day late. So that means if you submit by Monday 3 p.m., you will lose five marks. If you submit at 3:01 on Monday, you will lose ten marks and on Tuesday three periods it'll go up to 50 marks. And on Wednesday that'll go up to 20 marks and so on. So that's how it works. So if you need more time, if you need the weekend, it'll cost you five marks. Okay. So that's something you can decide to do. Chris three due tomorrow. Twist three is tomorrow during the lab hours as usual, between four and 6 p.m. covers lectures, lectures 13 to 18. So not this week's lectures. There will be a lab, obviously, tomorrow, because that's when you do your quiz and there will be a lab next week before basically on the final day before going off onto the break where the Tas will be there. Jeremy and myself will not be there. We're away for next week on university business. The idea of the labs is you finish that seven and eight and all the tasks that are on those lab sheets on flow. If you haven't already, then join the 2022 workspace and there's the link to joining that is on teams. I'll probably refresh that because I think that joining link expires, so I'll post that again. But that means if you leave it too late, probably won't be able to join it. But what I also do, what I have done already on the teams is I've exported my solutions to Labs seven and eight or I've posted them for Lab seven and I will post them today for Lab I and the voice files for the voicemail files. Same. Say what? We're asking you to export for your coursework, by the way, and then you can just import them into your own workspaces and then you can actually edit and add them. And you can go and inspect all the all the blocks because they say workspace is read only. And so you can't really inspect and test I think a lot with that read only workspace. So probably if that's your you if you want to do that and really get into the details of it, then I can, you know, download those files from teams and import them into your workspaces and then you can play around with them as well. Any questions you have related to or to please ask them before or by the 16th of December? Because then we were on a break and we all deserve a break. So when we won't be responding while we were on this break until the 3rd of January. Okay. If there are voice flu technical issues, you can contact voicemail directly. We can't help you if there are technical issues with voice anyways. And they have a chat, they have a kind of a chat interface that you can use. And they, I think, not quite responsive by that. And they will try and help you and they will also I don't know exactly what clearly they will also not be working over Christmas, but there might be more available in that kind of in that week running up to Christmas still as well. And then, of course, our deadline closer to us the 10th of January 3 p.m. in terms of lectures. So next Monday during our usual lab sorry lecture slot at 10 a.m., there will be a guest lecture by one of our one of our Tas. Please attend her lecture. She's going to talk about her Ph.D. in natural language processing so should be interesting and obviously relevant to the module and there will not be a lecture on Thursday next week. Okay. And then now let's just kind of we let's have a chat and you can ask us anything within reason, probably. You have some, of course, for questions, but also we have some questions for you. Like how was the module? And yeah, okay, you've told us anonymously in the survey, but now you can tell us in person as well if you want. What did you like and what would you change next time, that kind of thing. We're interested in hearing that because we're always thinking about improving it. We can tell you a little bit about our plans of what we will improve next year or change next year as long as you want to hear it. And yeah, that's it. So you have your hand up first, so.
+
+SPEAKER 1
+Where was it? Did I get it right that she has an LP in? Yes. Okay.
+
+SPEAKER 0
+Yeah.
+
+SPEAKER 1
+Do you know how that works?
+
+SPEAKER 0
+Just wait until Monday. She's. She's. She'll tell you all about it.
+
+SPEAKER 2
+Oh, so we don't know.
+
+SPEAKER 0
+Yeah. She didn't do her PhD here or with any of us, so we don't actually know. Yeah. Yeah.
+
+SPEAKER 1
+Not. The whole discussion. So I believe this will lead to social. You know what?
+
+SPEAKER 0
+She just sits on the mike.
+
+SPEAKER 1
+What are you classified as?
+
+SPEAKER 0
+Not seeing the Jeremy take on?
+
+SPEAKER 2
+So the discussion and reflection part. Well, I mean, this this this is something that, you know, Joel Joel has talked about every Monday for the past ten weeks. And basically, these are the kind of topics I would like to read about in the report. So things, for instance, like we consider that you said might be biased in some way, that your system might not work in some context that could make it prejudiced against some classes of people or all those things that we've talked about. And that in the social implications of I basically and when I say all those things, I don't mean that we need to treat every single one of those topics, just the ones that you think might be the most relevant to what you did. Something as simple, for instance, as like, you know, all the language I've used coming from an American English at the base. What happens if someone comes and type in some other like, like English dialect is going to work as well? No, probably not. So vocabulary differences and things like that. So this kind of. Yes. And so the question is.
+
+SPEAKER 1
+What's the difference between social? People go on.
+
+SPEAKER 2
+Strike, which is why they're in the same section.
+
+SPEAKER 1
+Yeah. Yeah. I mean, like, strong, like something. They go under the articles. So what goes on in the social?
+
+SPEAKER 2
+Well, social and ethical are not like they're not across separate separated categories. Right. Well, the stuff falls into both places. You may have some things which falls into the ethical issue, but are not necessarily social, as in like a system that exclusively harms you but does not have any impact on the world overall, as is like, is usually just an ethical concern. On the other hand, I think most of the things with social issues tend to be ethical, but it's one of those things where like you shouldn't think those are like separate issues. There are just different dimensions and then you have issues. Yeah. Feel a bit more like as like a two dimensional space in which you can be very social, very ethical or not social. Not if you call on anything in between. That makes sense, right? Yeah. Okay. Yes.
+
+SPEAKER 1
+So that is also.
+
+SPEAKER 2
+Like the system itself. Yes.
+
+SPEAKER 1
+So let's say when.
+
+SPEAKER 2
+Yes.
+
+SPEAKER 1
+Reflecting on the. I read. You know. Not?
+
+SPEAKER 2
+Well, it depends what you mean by reflecting on the accuracy rate. What do you mean by reflecting? Is it just saying, oh, it's 70% accurate? That's not a reflection. It's a statement. But you can reflect about things that you know. My my model is only 65% accurate. But, you know, it's you know, you have some sort of like we talked about things like hedging statements when you're not sure about your predictions. So those kind of things like are part of the reflection. If you if you don't pretend to the user as if your thing is 100% accurate, then that's a different thing, that if you have 51% accuracy, then you just output strong statements as if your system held the truth of everything. Whether that makes sense, it's like it is more like the performance of the system when contextualised in its usage.
+
+SPEAKER 1
+Beyond. The problem.
+
+SPEAKER 2
+Yeah. Yeah. I'm not expecting you to solve everything and then make a competitor to Alexa. Even Alexa is failing. And they have all of the money. Question.
+
+SPEAKER 1
+Very important. Yeah. There's no way. There's no.
+
+SPEAKER 2
+I should have. This is no measure to us. What did you.
+
+SPEAKER 1
+Do? Like my mom.
+
+SPEAKER 2
+Okay.
+
+SPEAKER 1
+My. That's. He's not supposed to be. Yeah, he's supposed to be. Yeah.
+
+SPEAKER 2
+Well, I mean, there's two things. So first off, I mean, there are ways of testing name antigen recognition systems, but I'm not expecting you to read into that and then develop an excellent sort of pipeline or research pipeline. But one very simple thing that you can do for any system is just to test it and to end as in when it's actually used in like a set of scenarios. How does it does any does it, does it do any mistake? And then how many of those mistakes can be imputed to the named entity recognition system. So depending on the user, so you name it, the recognition system is going to be used in a specific sort of context. The other set of context can be model of the set of scenarios. And then if all those scenarios work well or which ones do not work well and you can identify and talk about, talk about the ones that don't work well and why they don't work well, then that's a set if you want, basically.
+
+SPEAKER 1
+I basically asked a few of my friends on the call.
+
+SPEAKER 2
+What can I ask you to do? That's an ethical.
+
+SPEAKER 1
+Yeah, but I've got nothing else to say. Just like this. It's not enough. I think the moment you try to do it, it can be complicated.
+
+SPEAKER 0
+Yeah, I've answered that already, didn't I? You asked me the same question on Monday or last week. We do not collect personal data. That's all. That's all you need to.
+
+SPEAKER 1
+Are going to do. Personal data? Yeah. Yeah. I feel like I might have tried something. Rather doesn't want any damages at.
+
+SPEAKER 0
+You can ask your friends informally to test your code and you can talk about that as part of the use of testing. But don't collect any personal data pertaining to your friends, you.
+
+SPEAKER 2
+Know, their names or their email addresses. Nothing. They don't exist. You don't.
+
+SPEAKER 0
+You don't collect data from students, though. You just ask them to test your code or test your chatbot. Yeah, you get them to test your chatbot or not. You're not collecting data about your your friends or your, you know, your colleagues. You get the difference. Yeah. Or sorry. I mean.
+
+SPEAKER 1
+No.
+
+UNKNOWN
+But then when you're talking about like. It's like.
+
+SPEAKER 1
+Discussing my. You can be. You can't be like, Oh, this has been tested by.
+
+SPEAKER 0
+Well, you can.
+
+SPEAKER 1
+People without experience with that.
+
+SPEAKER 2
+So that's Yeah. So that's a limitation of the assessment.
+
+SPEAKER 0
+Yes. And what you can do is reflect on the limitations of the type of user study that you are doing. Right. And it doesn't mean it's about study in terms of the coursework, but you can offer critical reflection. Do you have a representative sample of the population? Probably not one of you will, and that's not the point. You're not meant to write. Yeah, it's meant to be a kind of a lightweight, quick and dirty user study where it's not a full blown user study by any means. So you're not collecting any of this information. You don't need to. Yeah. We've not asked you to. We asked you not to.
+
+SPEAKER 2
+We appreciate the effort. But yeah, the fact the fact is, like in grand majority, most people would have a user study of one, which is themselves, and that's fine, but it's not expected to find people because there's no scope in the timeline of the project to actually do that. What matters, as you'll said, is that you are you can acknowledge that and then explain why that will be an issue and how that would need to be fixed, basically.
+
+SPEAKER 1
+Any user testing that we do. Does the asking and does it work right? Like if I give you this, these like you intense. Like I can type. Not only does it do what he.
+
+SPEAKER 0
+Is supposed to do. It probably wants to document the output of tests that they are running that you're asking them to do and talk about long run because that's someone testing your system. Right. And so that's not data about them. That's data about your system and how it performs when somebody else who's not biased like us or as a developer because they come with their own words and language and so on. To test your chatbot, how does that perform? That's what we're interested in. That's what the user study can tell you. Yeah. Should we put, like.
+
+SPEAKER 1
+As you said, like examples of conversations people have in the chapels in. So could you just.
+
+SPEAKER 0
+Summarise you could do one thing say about the appendix or the appendix is we you know, it can be a workaround for you to say, you know, to give us a report and say, oh, well there's 30 pages of appendix because you know, we've got to be able to market, right. That's why that limitation is ten pages. So if you want to have put an appendix and that makes the thing longer than ten pages, we won't look at it. It's just it's just there. You can put it there. If it makes you feel good, it's for us. We're going to ignore it.
+
+SPEAKER 1
+Is there any need to sort of show the. Mistake we did with users or can we just sort of summarise in.
+
+SPEAKER 0
+Different ways of doing that? I don't think we want to be as prescriptive as to say this is what you should do. Exactly. Both are viable options of how to present user testing. Yeah, you can use examples. You can use screenshots of what happens when they chatter to your chat bot or you can summarise it. These are all options. And also, I mean, you know, your reports are all slightly different. They're going to have you're going to have the challenge of fitting into 2000 words. So let's talk about the 2000 word world and you because what you've asked me and also on the teams. So it's going to be the way we're going to treat that. We set around 2000 words. So what we mean by that, we mean 2000 words plus -10%. So that's an extra 200 words, but don't make it longer than 2200 words, because then it's really too long and it's no longer around 2000 words. So we made it. So that just really kind of defines what we mean by around 2000 words. It's fair enough. We'll say plus or -10%. Okay, So just be within that range and you won't have any problems if it's longer. You know, we're going to have to look at your report in with in comparison to everybody else who managed to stay in those words and that word limit. And we're going to have to start thinking about whether we need to subtract marks because it's longer. Okay. Yeah. Right. So the word council is the main body of the text. Mm hmm. So that does not include your cover sheet if you have one. And it does not include the references and it does not include the appendix. But again. Yeah. Sorry. Captions. Captions? Yes, captions. Count figures do not count towards the word count because they're images. Yeah. Tables that are tables. And we can count that The word count will count them. That will count. The tables will count towards the word. Count through tables in the words in the table. Will count. Also would count. Yeah.
+
+SPEAKER 1
+So we use count. Obvious. Okay. What do you think? Yeah. Is that the.
+
+SPEAKER 0
+Specific format you want? Well, like we said. Anything that plays in B or C or QuickTime, we're fine with that.
+
+SPEAKER 2
+No VHS.
+
+SPEAKER 0
+B or C is A free is a free play that you can all test yourself, but it runs in that. And if you have a QuickTime on that, you send a link to an unlisted. No, no, do not send a link to a video. Because why? Because you can change it after the deadline. Because we won't. So we need to have proof that That's why you need to submit the video file. Yeah. Yep.
+
+SPEAKER 1
+So how what we deal with the outcomes that make up the person interacting with the jack on a piece of paper?
+
+SPEAKER 0
+Yes. I cannot recommend including use of testing like that in your video. It should go. Videos shouldn't necessarily be, I think about the user testing. It should be a demo of your system. Optionality and features. So you don't need anyone but yourself to make that video. And typically it's just a screen grab. You can include your face in if you want, but don't need to. It's just a screen. We want to see the top features working and maybe include some of the code. But again, we're not we don't need to see a video of your code. We want to see if any of the type of working.
+
+SPEAKER 2
+Is it possible to read the code from the video?
+
+SPEAKER 0
+Yeah, yeah, yeah. I don't know if we just run that.
+
+SPEAKER 1
+For example, like my years.
+
+SPEAKER 2
+But if the court is there, I mean, I don't care if the court is like a top of the screen and the scene like we move or the court, I'm just saying don't go over all the line to
+
+SPEAKER
+the court and say, Yeah.
+
+SPEAKER 0
+We don't want you to talk to your code. I mean, maybe you can do a little bit, but really we want you to show the channel working.
+
+SPEAKER 2
+I put no court in this.
+
+SPEAKER 0
+Yeah. So Jamie says, no, Jamie doesn't in court. Don't. You'll be upset.
+
+SPEAKER 2
+I can't be myself.
+
+SPEAKER 1
+So you have to answer. Yeah. So for me, I really like it because I think everyone's opinion was.
+
+UNKNOWN
+And one. See.
+
+SPEAKER 1
+You see how my mom. Indeed.
+
+SPEAKER 0
+Okay. Thank you for your feedback. Yeah. He likes watching the likes of.
+
+SPEAKER 1
+Like this? Like. Yeah. When someone. So yeah, this line really has never. I would appreciate it. From. You know. But that's.
+
+SPEAKER 2
+But the thing is, I understand and the point is taken, but there's over the many, many modules which are entirely focussed on on practice. So making you better at doing machine learning or natural course processing or whatever is is easy, basically in terms of teaching, uh, making you better at thinking about it. That's the hard part, basically. So I understand your points and I probably have the same one if I was sitting in your place. But is, is a deliberate choice that is made. It's a level three module.
+
+SPEAKER 0
+It's not a level one or two module which are more practical and more really just about the programming in computer science. This is also known to us open to a before and postgraduate as well. So then the. So therefore, like Jeremy said, it's a deliberate choice. It's not just about programming. This is not a programming module, even though it's not part of it. To us, it's just as important, if not more important, that you reflect on the, you know, the issues that that arise when when you develop interactive systems. So I'm afraid that when we take your feedback and it's always the same that some students will say what you said and others will say the opposite, Please, no more code. So, yeah, I've got time.
+
+SPEAKER 1
+For this course.
+
+UNKNOWN
+How. When writing down. I like to see. I like to structure my reports in ways that I know is. Other people might not be as easy as we. So we now try.
+
+SPEAKER 2
+I need to think about it.
+
+SPEAKER 0
+Because this I mean, the answer, the quick answer is no, because this deadline's tomorrow, right? You should have asked us two weeks ago that maybe we could have looked at whether we can produce something like that, maybe just enough time to do it. And it's a bit late for everyone. So the only thing that would happen if we were to do that now is you would just panic and think, Oh, my God, my report looks so different. That's not the point. The point is you've got this structure we've given you, right? Yeah. We've given you the headings for. For the structure of the report. And so then it's what you make of it. There's no to report. There's no one correct solution to it. It's your chapter, and it's your report. So, you know, you structure that in it in whichever way it works. And so don't don't worry about it.
+
+SPEAKER 2
+And there are small variations in the class from year to year. So it might not even be indicative of anything this year.
+
+SPEAKER 1
+This unspooled the coursework. So quite ambiguous like that. It took me a while to even sort of. Know what you were like asking. Like, I feel like some examples of the. Sort of out. Let me just showed us some previous year's demonstration videos, but I just didn't. For a while I was stuck not knowing what I was mentally.
+
+SPEAKER 0
+You know, a bit mysterious isn't a good point. You know, it's a good point. And we are changing that next year to making it more streamlined and straightforward. I think is bigger. Maybe we're expecting too much, Jeremy.
+
+SPEAKER 2
+Well, I have high expectations.
+
+SPEAKER 0
+Yeah.
+
+SPEAKER 1
+I think you'd be.
+
+SPEAKER 0
+More or less.
+
+SPEAKER 1
+I knew it.
+
+UNKNOWN
+There were too many plans. You just kind of.
+
+SPEAKER 2
+With more lives of human lives.
+
+SPEAKER 1
+No more lives has been lost. There were too many lives. But we were just law.
+
+SPEAKER 2
+Oh. Oh, really? Okay, that's. That's an opinion I never heard before. Which is the opposite.
+
+SPEAKER 0
+Yes. Violence is nothing.
+
+SPEAKER 2
+That. Okay. Yeah. Well I think Yeah I enough. That's, that's, that's, that's like hitting like one of the main issues with courses like this is that we need to aim. So the, the way structure right now. Right. Is that like one, two, three, four basically go over their specific skills and then the coursework basically is kind of a repeat of those lives and then like, okay, now you've done this, this and that. Can you apply those things in like a whole kind of package? So I get your points for having more labs of Yeah, but stuff like working with kids V and all that. I think that's some of the things that we would count like almost as a prerequisite for programming experience. Are your masters or the.
+
+SPEAKER 0
+Interviews.
+
+SPEAKER 2
+For years? Okay. Okay. Well, there may be something we need to change with our our purposes. So it's a one time for us. Yeah.
+
+SPEAKER 1
+Yeah. So to say that I think the size of the post office 500%. I just wanted to. I feel like it's quite hard when we get set. During the holidays. It feels like we're.
+
+UNKNOWN
+Kind of forced to. Like spent of.
+
+SPEAKER 1
+Is it possible?
+
+SPEAKER 2
+I think so too. But I do remember of to, of course, one.
+
+SPEAKER 1
+Positive thing through.
+
+SPEAKER 0
+All the holidays. But you can complete it before next week. It's not because it's true.
+
+SPEAKER 2
+There's nothing at all.
+
+SPEAKER 1
+Okay. But in general.
+
+UNKNOWN
+Is it is it possible, like.
+
+SPEAKER 0
+So before Christmas. Well, you just really. So what we're doing, I appreciate the feedback. What we're doing next year is actually only one coursework. So we're kind of merging them. But with regards to the deadline, I don't know. We haven't figured out yet whether it's going to be before Christmas or after. I mean, you hear again, it's like some students prefer to work on it a little bit, you know, and like those extra weeks to work on it. Um, this year, because we extended the deadline for coursework one year. And you have been distracted by focusing on coursework one until basically now, until tomorrow, because the deadline that we have, you know, conscious of that, that's why I reduced the scope of course there to so that it's not a big piece of work over the you know it was essentially going to be mostly over the break. There's still enough time in my opinion to to complete coursework to in the in basically in the next few laps and and well not tomorrow because there's a quiz. Right. So but next week you will be able to complete it in my opinion. Um, but yeah, point taken. And I appreciate that. So but next year will we just because we realise that it's overall is, it's too much assessment and we're just going to merge them.
+
+SPEAKER 2
+One quiz per week and.
+
+SPEAKER 0
+One quiz per week. No, we're going to keep the three quizzes, I think, for next year, but we're going to just merge the course books.
+
+SPEAKER 1
+I was just going to say I. I understand that. Like, it's all about the theory part of. But to some extent, like I do, like the quizzes are like they're not actually that helpful in terms of playing because you're looking at them and you're like seeing like, oh, like, you know, this ambiguous statement could possibly fall under this. So like, I could like to do that, right? But like, the coursework itself already covers, like, all. Like all the theory, all of the ethics, all of that. So if we are addressing that in course, I don't know necessarily. Aren't necessary yet.
+
+SPEAKER 2
+But because of great abundance and basically.
+
+SPEAKER 0
+Great value quizzes are broader than the coursework coursework specifically about your coursework. I mean, the cost of report yet is a tiny bit on reflection, self self-reflection, but it's not going to cover the breadth of what the quizzes cover.
+
+SPEAKER 1
+But I guess arguably, like you could say, most research papers would have to talk about your questions anyway, so you could still bring in those elements, right, And select something with something you learned, stuff that resonated with you as you. Because the clip itself is like, yes, it's very broad. But I mean, I don't know how everyone else is handling it, but like, I just feel like because there's a little bit of this thing was are added to like big or it's like, you know, it just feels like always like an extra thing. I would think about doing the lab where I wish I could be working as a.
+
+SPEAKER 2
+Entirety cost 1,700%.
+
+SPEAKER 0
+Yeah. I mean, what I think most students I mean, the average the average for the quizzes is above the average for the course work. So really, you know, on average, students get a bump that, you know, are average in previous years. Right. So the previous years have shown that we only give you the grades and it might be different for you. But the previous years have consistently shown that, okay, I don't know what's next. Maybe, you know, is getting better.
+
+SPEAKER 1
+You know, this is what I'm going to call the videos. Lots more songs. Really? Come on, Joe. I like how we actually take a roll to, like real life applications versus some of the more computer science. It feels like learning about something that was done two or three years ago. Yeah, for me, the only thing I would change is just the sum of the lectures. What is what a lot of it is until like 5 seconds before actually to the lecture, which is nice to know you're taking my first question. So just trying to kind of keep up with all the words on Google. I, I know, long as do you know if it's just something that.
+
+SPEAKER 0
+Yeah. I thought I was in Germany. Right.
+
+SPEAKER 2
+When. When slaves get up to these 5 seconds before the picture. It means I stopped working on.
+
+SPEAKER 1
+That intensity before.
+
+SPEAKER 0
+Yeah. I mean, it is entirely a good point. And, you know, generally we try to do that. You know, the lectures to be uploaded as early as possible, but it's not always possible because some people just don't have very good time management.
+
+SPEAKER 2
+Not looking at.
+
+SPEAKER 0
+The strong.
+
+SPEAKER 2
+Yeah. So.
+
+SPEAKER 1
+I know, because I'm not alone. That's why they called me. One closely divided, Lessing recalled. As soon as I said, I'm starting the second phone. So I think the exact opposite just kind of makes it easier. And the other thing is we have.
+
+UNKNOWN
+A generation like started starting with the cold dead so that they might draw a line just kept going and running down.
+
+SPEAKER 1
+So I feel way more comfortable sitting at home to explain this. I also. Cosmetic surgery is easier on New Year's Eve, and some do right throughout the year. This trend is one that people stress, so I believe they are.
+
+SPEAKER 0
+Thank you for that feedback. You.
+
+SPEAKER 2
+I really like the absence of sister know.
+
+SPEAKER 0
+Mm hmm. Thank you.
+
+UNKNOWN
+Yeah, I guess you could say it was.
+
+SPEAKER 1
+I guess we have keep.
+
+UNKNOWN
+You know. Ignore I'm doing. Please. Why? One we. Which is.
+
+SPEAKER 0
+Thank you for that feedback. So any other plans to meet? Uh huh. Well, uh, no comment.
+
+SPEAKER 2
+Yeah, me too. It's not as though they're very good or good.
+
+SPEAKER 0
+It's just I think quiz is pretty straightforward.
+
+SPEAKER 1
+Every time you feel like you're being held.
+
+SPEAKER 0
+I mean, it's lecture's 13 to 18, right? So and all the user interface lectures are the best ones, right? Yeah.
+
+UNKNOWN
+We really enjoy the 30 minutes.
+
+SPEAKER 1
+And cookies itself is kind of one of these. Okay. Just like every time we are going to gather, you know, some plan like this, what we know from that period is kind of theoretical, but my. But even elsewhere is like this month is all about practical. Names, but somehow I feel okay. So what is good is the location. More like not. Not 100% is my goal. Not at all. So, yeah, I just I kind of feel I lose my way every time a thing like this. I don't know how to. Here it is. It's nice looking. Different from the exam or. So that's what I'm asking you. A Christmas gift.
+
+SPEAKER 0
+Okay, well, you can, you know, wish anything for Christmas. Of course. You know. Okay. You can ask for anything.
+
+SPEAKER 1
+Is also a Christmas gift.
+
+SPEAKER 0
+Well, it's written in stone, so you will have to judge yourself. Sorry.
+
+SPEAKER 2
+I just want to say this all part of the module. So.
+
+SPEAKER 0
+So. So it's easy. Yeah. It's not to judge anything. You want to stick to one. Yeah. So we'll be. But we're still we're still waiting to hear. Maybe somebody else still wants to say something. Yeah. Yes, I it's a thought. I know.
+
+SPEAKER 2
+It's because of video and glamour taking never. I still not that new player.
+
+SPEAKER 0
+You know, it's like it's definitely plagiarism because it's like asking a colleague to write a report for you, isn't it? Also, GPT three is rubbish anyways. Why would you want to do that? So three only gives gives. The veneer of a good report is like surface level. Good. But actually it's also not really about your coursework is it? Because you can't tell GPT three about your project? Really what you did in your code?
+
+SPEAKER 2
+It's an interesting thing. And actually, this doesn't work because it depends on the university you're studying. Some university definition of federalism in which to define a merger is as taking someone else's work. And I think I you know, in this university for tourism is defined as taking work, which is not done by you as your own. There's a very subtle difference. I would like one meeting use a definition as like taking one and one is that could be anything which is not your work.
+
+SPEAKER 1
+As an individual.
+
+SPEAKER 2
+So in the sense that I think we put all that in the report, that we have a federalism. You know as well. But. But it's a very interesting topic. And both your father's work and. Yeah. So is it divided interest?
+
+SPEAKER 0
+Yeah. Yeah, that's true. Um, so yeah. So for next year, we as I mentioned, we're planning to merge the core. So we're going to get rid of, uh, the voice floor next year. We're not going to use that, even though I quite like it, that it's just this, you know, something out of our control. Like, it can like it changed this year and like, they took it down. A lot of the tutorials from YouTube, which I thought were really quite good. They're just gone now. So, you know, um, we. Yeah, it just eliminates one more thing. Um, and yeah, it's going to make less work for everyone, the students and us. Uh, it's going to be Python all the way. But, but also, yeah, we're going to explore how we can incorporate a bit more of the conversational design stuff in Python. So it doesn't mean you do more. They're going to be doing more Python development than you are, but it's just incorporating a bit more of the second part of the matter into it. We're going to work it out. Yeah. Do you want to say something to the class? I think.
+
+SPEAKER 2
+I'm supposed to be helping people so long.
+
+SPEAKER 0
+Well, this is the third year. Third year we're doing this module. First year was all online because of COVID. And as opposed also the first year we designed the module. And then last year was, yeah, is that sort of in between where actually we didn't go back online, the lectures were really poorly attended. Yeah, very early on in the last as well. So you've been the best class out of all of them. Yeah. Yeah, he's been really good and really engaged, I think, and made a difference, you know, for having lectures where you've been asking questions and answering our questions. So. So you can give yourselves a pat on the back and get the coursework one submitted and then, you know, a few more bits and pieces.
+
+SPEAKER 2
+But I must just project. So I'll see.
+
+SPEAKER 0
+If you're doing those projects. Jeremy and I are available for some provisions and yes, I might see you around anyways, and I think we're just sort of finishing up. Take care. Goodbye.
+
+SPEAKER 1
+Yes.

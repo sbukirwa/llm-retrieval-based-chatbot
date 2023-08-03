@@ -1,0 +1,81 @@
+{% extends "base.html" %}
+
+{% block title %}Retrieval-Based Chatbot{% endblock %}
+
+{% block content %}
+<div class="container">
+    <h1 class="mb-4">Retrieval-based Chatbot</h1>
+
+    <form action="/retrieval_based_chatbot" method="post" class="mt-4" onsubmit="showAlert(event)">
+        <div class="mb-3">
+            <label for="user_query" class="form-label">Enter a question:</label>
+            <input type="text" id="user_query" name="user_query" required class="form-control">
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Choose output preference:</label><br>
+            <div class="form-check form-check-inline">
+                <input type="radio" id="text" name="output_preference" value="text" checked class="form-check-input">
+                <label for="text" class="form-check-label">Text</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input type="radio" id="voice" name="output_preference" value="voice" class="form-check-input">
+                <label for="voice" class="form-check-label">Voice</label>
+            </div>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Ask</button>
+    </form>
+
+    <!-- End Conversation Button -->
+    <form action="/end_conversation" method="post" class="mt-4">
+        <input type="hidden" name="chatbot_type" value="retrieval">
+        <button type="submit" class="btn btn-danger">End Conversation</button>
+    </form>
+
+    <style>
+        #conversation-container {
+            height: 60vh; /* 60% of the viewport height */
+            overflow-y: auto; /* Enable vertical scrollbar when content overflows */
+        }
+    </style>
+
+    <div id="conversation-container" class="mt-4">
+        {% for entry in conversation %}
+        {% if entry.role == 'user' %}
+        <div class="message-container user-message">
+            <p><strong>You:</strong> {{ entry.content }}</p>
+        </div>
+        {% elif entry.role == 'chatbot' %}
+        <div class="message-container bot-message">
+            <p><strong>Chatbot:</strong> {{ entry.content }}</p>
+        </div>
+        {% endif %}
+        {% endfor %}
+
+
+    </div>
+</div>
+{% endblock %}
+
+<!-- Add the 'End Conversation' button -->
+<form action="/end_conversation" method="post" class="mt-4">
+    <input type="hidden" name="chatbot_type" value="retrieval">
+    <button type="submit" class="btn btn-danger">End Conversation</button>
+</form>
+
+{% include 'footer.html' %}
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+<script>
+    function showAlert(event) {
+        event.preventDefault();
+        alert("Conversation ended!");
+        // Manually submit the form when the alert is closed
+        document.getElementById("llm-form").submit();
+        return false; // Prevent the default form submission
+    }
+</script>
