@@ -8,7 +8,6 @@ import pyttsx3
 import hnswlib
 import torch
 import secrets
-from scipy.sparse 
 import issparse
 import random
 import os
