@@ -9,7 +9,8 @@ import hnswlib
 import torch
 import secrets
 from scipy.sparse 
-import issparseimport random
+import issparse
+import random
 import os
 import glob
 import numpy as np
