@@ -8,17 +8,6 @@ import pyttsx3
 import hnswlib
 import torch
 import secrets
-import issparse
-import random
-import os
-import glob
-import numpy as np
-import string
-import spacy
-import pyttsx3
-import hnswlib
-import torch
-import secrets
 import nltk
 # nltk.download('stopwords')
 # nltk.download('wordnet')
@@ -27,6 +16,7 @@ import nltk
 # from nltk.stem import WordNetLemmatizer
 from nltk.tokenize import sent_tokenize
 from scipy.sparse import issparse
+
 from gensim.models import Word2Vec
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
@@ -35,7 +25,6 @@ from sklearn.metrics import homogeneity_score
 from sklearn.metrics import silhouette_score
 from flask import Flask, render_template, request, session, redirect, url_for, send_from_directory
 from transformers import GPT2Tokenizer, GPT2LMHeadModel
-
 # lemmatizer = WordNetLemmatizer()
 # stop_words = set(stopwords.words('english'))
 
