@@ -8,7 +8,8 @@ import pyttsx3
 import hnswlib
 import torch
 import secrets
-from scipy.sparse import issparseimport random
+from scipy.sparse 
+import issparseimport random
 import os
 import glob
 import numpy as np
