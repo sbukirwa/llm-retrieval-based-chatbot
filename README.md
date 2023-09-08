@@ -1,7 +1,7 @@
 # llm-retrieval-based-chatbot
 # Project Name
 
-A brief description of your project.
+LLM-based chatbot and Retrieval-based Chatbot
 
 ## Table of Contents
 
@@ -20,7 +20,7 @@ A brief description of your project.
 
 ## Introduction
 
-A web based application which houses an LLM-based chatbot and a Retreival-based chatbot providing output in both voice and text.
+A web based application which houses an LLM-based chatbot and a Retreival-based chatbot providing output in both voice and text. Built using python and flask framework incorporating the Jinja template engine.
 
 ## Features
 
