@@ -1,4 +1,5 @@
 # llm-retrieval-based-chatbot
+#### A web based application which houses an LLM-based chatbot and a Retreival-based chatbot providing output in both voice and text. Built using python and flask framework incorporating the Jinja template engine.
 # Project Name
 
 LLM-based chatbot and Retrieval-based Chatbot
